@@ -3,40 +3,24 @@
 
 @import "minimal-mistakes";
 
-/* Fondo general oscuro */
-html,
-body {
-  background-color: #0d1117;
-  color: #e6edf3;
-}
-
-/* Contenido principal */
-.page,
-.page__inner-wrap,
-.initial-content,
-.archive {
-  background-color: #0d1117;
-}
-
-/* Texto */
-p, li {
-  color: #c9d1d9;
-}
-
-/* Títulos */
-h1, h2, h3, h4 {
-  color: #f0f6fc;
-}
-
-/* Tarjetas */
+/* Ajustes suaves, no rehacer todo el tema */
 .feature__item {
-  background-color: #161b22;
-  border: 1px solid #30363d;
-  border-radius: 12px;
+  border-radius: 16px;
+  overflow: hidden;
 }
 
-/* Navbar */
-.masthead {
-  background-color: #0d1117;
-  border-bottom: 1px solid #30363d;
+.feature__item img {
+  border-radius: 12px;
+  margin-bottom: 0.8rem;
+}
+
+.btn,
+.btn--primary {
+  border-radius: 10px;
+}
+
+.page__hero--overlay .page__title,
+.page__hero--overlay .page__lead,
+.page__hero--overlay .page__excerpt {
+  text-shadow: 0 2px 10px rgba(0,0,0,0.35);
 }
