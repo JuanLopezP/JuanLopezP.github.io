@@ -48,6 +48,13 @@ feature_row:
     url: /excedentes/
     btn_label: "Ver proyecto"
     btn_class: "btn--primary"
+  - image_path: /assets/images/batery/batery.JPG
+    alt: "Construcción de batería LiFePo"
+    title: "Montaje de batería 5S8P para equipo de robótica"
+    excerpt: "Montaje y soldadura de celdas LiFePo4 18650 y BMS daly"
+    url: /excedentes/
+    btn_label: "Ver proyecto"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row %}
