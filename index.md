@@ -3,12 +3,13 @@ layout: splash
 title: "Juan López"
 header:
   overlay_color: "#000000"
-  overlay_filter: 0.7
+  overlay_filter: 0.65
   overlay_image: /assets/images/hero.jpg
   actions:
     - label: "Ver proyectos"
       url: /projects/
-
+    - label: "Mi GitHub"
+      url: https://github.com/TU-USUARIO
 excerpt: "Ingeniería, domótica, automatización y documentación técnica de proyectos reales."
 
 feature_row:
@@ -31,13 +32,13 @@ feature_row:
 
 {% include feature_row %}
 
-## 👨‍💻 Sobre mí
+## Sobre mí
 
 Ingeniero en robótica centrado en sistemas reales: domótica, control energético e instalaciones eléctricas.
 
-Esta web documenta proyectos donde combino hardware, software y automatización para crear sistemas eficientes y escalables.
+Esta web documenta proyectos donde combino hardware, software y automatización para construir sistemas útiles, mantenibles y escalables.
 
-## ⚙️ Áreas de trabajo
+## Áreas de trabajo
 
 - Domótica
 - Automatización
@@ -45,12 +46,13 @@ Esta web documenta proyectos donde combino hardware, software y automatización 
 - Gestión energética
 - Integración hardware + software
 
-## 🧪 Cómo documento los proyectos
+## Cómo documento los proyectos
 
-En cada proyecto incluyo:
+En cada proyecto intento incluir:
 
-- Objetivo
-- Arquitectura del sistema
-- Implementación
-- Problemas encontrados
-- Mejoras futuras
+- objetivo y alcance
+- arquitectura del sistema
+- decisiones de diseño
+- implementación real
+- problemas encontrados
+- mejoras futuras
