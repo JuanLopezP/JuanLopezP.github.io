@@ -2,8 +2,8 @@
 layout: splash
 title: "Juan López"
 header:
-  overlay_color: "#111111"
-  overlay_filter: 0.5
+  overlay_color: "#000000"
+  overlay_filter: 0.7
   overlay_image: /assets/images/hero.jpg
   actions:
     - label: "Ver proyectos"
