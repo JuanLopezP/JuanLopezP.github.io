@@ -1,7 +1,16 @@
-title: Proyectos de ingeniería y domótica
-description: Instalaciones, automatización y robótica aplicada
-
+title: Juan López
+description: Proyectos de ingeniería, domótica y automatización
 remote_theme: mmistakes/minimal-mistakes
 
 plugins:
   - jekyll-include-cache
+
+name: Juan López
+author:
+  name: Juan López
+  bio: Ingeniero en robótica. Documentando proyectos de domótica, instalaciones y automatización.
+  location: Málaga, España
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/JuanLopezP"
