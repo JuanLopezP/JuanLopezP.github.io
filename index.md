@@ -9,7 +9,7 @@ header:
     - label: "Ver proyectos"
       url: /projects/
 
-excerpt: "Ingeniería, domótica, automatización y documentación técnica de proyectos reales."
+excerpt: "Ingeniería, domótica, automatización, mecánica y agricultura 3.0 aplicada a problemas reales."
 
 feature_row:
   - image_path: /assets/images/sotano/portada.JPG
@@ -20,10 +20,10 @@ feature_row:
     btn_label: "Ver proyecto"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/excedentes/portada.jpg
+  - image_path: /assets/images/portada.jpg
     alt: "Proyecto excedentes"
-    title: "Control de cargas por excedentes solares"
-    excerpt: "Automatización energética con Home Assistant."
+    title: "Automatización bomba de achique"
+    excerpt: "Análisis meteorológico para energización de bomba de achique"
     url: /excedentes/
     btn_label: "Ver proyecto"
     btn_class: "btn--primary"
