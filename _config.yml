@@ -1,5 +1,3 @@
-remote_theme: usuario/nombre-del-tema
 title: Proyectos de ingeniería y domótica
 description: Documentación de instalaciones, automatización y control
-plugins:
-  - jekyll-remote-theme
+theme: jekyll-theme-minimal
