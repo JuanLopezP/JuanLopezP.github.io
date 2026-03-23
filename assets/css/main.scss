@@ -3,24 +3,101 @@
 
 @import "minimal-mistakes";
 
-/* Ajustes suaves, no rehacer todo el tema */
-.feature__item {
-  border-radius: 16px;
-  overflow: hidden;
+/* Fondo general */
+html, body {
+  background: #0d1117;
+  color: #e6edf3;
 }
 
-.feature__item img {
-  border-radius: 12px;
-  margin-bottom: 0.8rem;
+/* Barra superior */
+.masthead {
+  background: #0d1117 !important;
+  border-bottom: 1px solid #30363d !important;
 }
 
-.btn,
-.btn--primary {
-  border-radius: 10px;
+.masthead__inner-wrap {
+  background: #0d1117 !important;
+}
+
+.greedy-nav {
+  background: #0d1117 !important;
+}
+
+.greedy-nav .visible-links,
+.greedy-nav .hidden-links {
+  background: #0d1117 !important;
+}
+
+.greedy-nav a,
+.site-title {
+  color: #e6edf3 !important;
+}
+
+.greedy-nav a:hover,
+.site-title:hover {
+  color: #58a6ff !important;
+}
+
+/* Hero */
+.page__hero--overlay {
+  background-color: #000000;
 }
 
 .page__hero--overlay .page__title,
 .page__hero--overlay .page__lead,
 .page__hero--overlay .page__excerpt {
-  text-shadow: 0 2px 10px rgba(0,0,0,0.35);
+  color: #f0f6fc !important;
+}
+
+/* Tarjetas */
+.feature__item {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.feature__item .archive__item-title,
+.feature__item .archive__item-title a {
+  color: #f0f6fc !important;
+}
+
+.feature__item .archive__item-excerpt {
+  color: #c9d1d9 !important;
+}
+
+/* Botones */
+.btn,
+.btn--primary {
+  background: #238636 !important;
+  color: #ffffff !important;
+  border: 1px solid #2ea043 !important;
+  border-radius: 10px;
+}
+
+.btn:hover,
+.btn--primary:hover {
+  background: #2ea043 !important;
+}
+
+/* Contenido */
+.page,
+.page__inner-wrap,
+.initial-content,
+.archive {
+  background: #0d1117 !important;
+}
+
+p, li {
+  color: #c9d1d9;
+}
+
+h1, h2, h3, h4 {
+  color: #f0f6fc;
+}
+
+/* Footer */
+.page__footer {
+  background: #0d1117 !important;
+  border-top: 1px solid #30363d;
 }
