@@ -1,3 +1,5 @@
 title: Proyectos de ingeniería y domótica
-description: Documentación de instalaciones, automatización y control
-theme: jekyll-theme-minimal
+description: Instalaciones, automatización y robótica aplicada
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-remote-theme
