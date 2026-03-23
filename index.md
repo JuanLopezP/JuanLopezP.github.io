@@ -12,7 +12,7 @@ header:
 excerpt: "Ingeniería, domótica, automatización y documentación técnica de proyectos reales."
 
 feature_row:
-  - image_path: /assets/images/sotano/portada.jpg
+  - image_path: /assets/images/sotano/portada.JPG
     alt: "Proyecto sótano"
     title: "Instalación eléctrica y domótica del sótano"
     excerpt: "Diseño eléctrico, distribución de cargas y preparación para automatización."
