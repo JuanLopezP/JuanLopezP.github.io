@@ -4,7 +4,7 @@ title: "Juan López"
 header:
   overlay_color: "#000000"
   overlay_filter: 0.7
-  overlay_image: /assets/images/hero.jpg
+  overlay_image: /assets/images/hero.JPG
   actions:
     - label: "Ver proyectos"
       url: /projects/
