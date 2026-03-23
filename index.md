@@ -27,6 +27,27 @@ feature_row:
     url: /excedentes/
     btn_label: "Ver proyecto"
     btn_class: "btn--primary"
+  - image_path: /assets/images/dron/dron.JPG
+    alt: "Proyecto dron"
+    title: "Vigilancia e inspección aerea regadios"
+    excerpt: "Análisis mediante UAV de efectividad de riegos en fincas privadas"
+    url: /excedentes/
+    btn_label: "Ver proyecto"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/mesh/mesh.JPG
+    alt: "Proyecto wifi"
+    title: "Instalación de wifi mesh en vivienda unifamiliar"
+    excerpt: "Mejora de red en vivienda implantando wifi mesh con 3 nodos tribanda"
+    url: /excedentes/
+    btn_label: "Ver proyecto"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/dron/dron.JPG
+    alt: "Proyecto home"
+    title: "Domotización de vivienda unifamiliar"
+    excerpt: "Unificación mediante Home Assistant de dispositivos IoT"
+    url: /excedentes/
+    btn_label: "Ver proyecto"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row %}
