@@ -8,7 +8,9 @@ header:
   actions:
     - label: "Ver proyectos"
       url: /projects/
+
 excerpt: "Ingeniería, domótica, automatización y documentación técnica de proyectos reales."
+
 feature_row:
   - image_path: /assets/images/sotano/portada.jpg
     alt: "Proyecto sótano"
@@ -17,6 +19,7 @@ feature_row:
     url: /sotano/
     btn_label: "Ver proyecto"
     btn_class: "btn--primary"
+
   - image_path: /assets/images/excedentes/portada.jpg
     alt: "Proyecto excedentes"
     title: "Control de cargas por excedentes solares"
@@ -27,3 +30,27 @@ feature_row:
 ---
 
 {% include feature_row %}
+
+## 👨‍💻 Sobre mí
+
+Ingeniero en robótica centrado en sistemas reales: domótica, control energético e instalaciones eléctricas.
+
+Esta web documenta proyectos donde combino hardware, software y automatización para crear sistemas eficientes y escalables.
+
+## ⚙️ Áreas de trabajo
+
+- Domótica
+- Automatización
+- Instalaciones eléctricas
+- Gestión energética
+- Integración hardware + software
+
+## 🧪 Cómo documento los proyectos
+
+En cada proyecto incluyo:
+
+- Objetivo
+- Arquitectura del sistema
+- Implementación
+- Problemas encontrados
+- Mejoras futuras
