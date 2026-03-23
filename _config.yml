@@ -1,6 +1,7 @@
 title: Juan López
 description: Proyectos de ingeniería, domótica y automatización
 remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: dark
 
 plugins:
   - jekyll-include-cache
@@ -14,5 +15,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/JuanLopezP"
+
 sass:
   style: compressed
