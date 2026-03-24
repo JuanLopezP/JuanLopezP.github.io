@@ -10,54 +10,47 @@ header:
       url: /projects/
 
 excerpt: "Ingeniería, domótica, automatización, mecánica y agricultura 3.0 aplicada a problemas reales."
-
-feature_row:
-  - image_path: /assets/images/portada.JPG
-    alt: "Proyecto sótano"
-    title: "Instalación eléctrica y domótica del sótano"
-    excerpt: "Diseño eléctrico, distribución de cargas y preparación para automatización."
-    url: /sotano/
-    btn_label: "Ver proyecto"
-    btn_class: "btn--primary"
-
-  - image_path: /assets/images/sotano/achique.JPG
-    alt: "Proyecto excedentes"
-    title: "Automatización bomba de achique"
-    excerpt: "Análisis meteorológico para energización de bomba de achique"
-    url: /excedentes/
-    btn_label: "Ver proyecto"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/dron/dron.JPG
-    alt: "Proyecto dron"
-    title: "Vigilancia e inspección aerea regadios"
-    excerpt: "Análisis mediante UAV de efectividad de riegos en fincas privadas"
-    url: /excedentes/
-    btn_label: "Ver proyecto"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/mesh/mesh.JPG
-    alt: "Proyecto wifi"
-    title: "Instalación de wifi mesh en vivienda unifamiliar"
-    excerpt: "Mejora de red en vivienda implantando wifi mesh con 3 nodos tribanda"
-    url: /excedentes/
-    btn_label: "Ver proyecto"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/dron/dron.JPG
-    alt: "Proyecto home"
-    title: "Domotización de vivienda unifamiliar"
-    excerpt: "Unificación mediante Home Assistant de dispositivos IoT"
-    url: /excedentes/
-    btn_label: "Ver proyecto"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/batery/batery.JPG
-    alt: "Construcción de batería LiFePo"
-    title: "Montaje de batería 5S8P para equipo de robótica"
-    excerpt: "Montaje y soldadura de celdas LiFePo4 18650 y BMS daly"
-    url: /excedentes/
-    btn_label: "Ver proyecto"
-    btn_class: "btn--primary"
 ---
 
-{% include feature_row %}
+## Proyectos
+
+<div class="project-grid">
+  <a class="project-card" href="/sotano/">
+    <img src="/assets/images/portada.JPG" alt="Proyecto sótano">
+    <h3>Instalación eléctrica y domótica del sótano</h3>
+    <p>Diseño eléctrico, distribución de cargas y preparación para automatización.</p>
+  </a>
+
+  <a class="project-card" href="/excedentes/">
+    <img src="/assets/images/sotano/achique.JPG" alt="Proyecto bomba de achique">
+    <h3>Automatización bomba de achique</h3>
+    <p>Análisis meteorológico para energización de bomba de achique.</p>
+  </a>
+
+  <a class="project-card" href="/dron/">
+    <img src="/assets/images/dron/dron.JPG" alt="Proyecto dron">
+    <h3>Vigilancia e inspección aérea de regadíos</h3>
+    <p>Análisis mediante UAV de la efectividad de riegos en fincas privadas.</p>
+  </a>
+
+  <a class="project-card" href="/mesh/">
+    <img src="/assets/images/mesh/mesh.JPG" alt="Proyecto wifi mesh">
+    <h3>Instalación de Wi-Fi mesh en vivienda unifamiliar</h3>
+    <p>Mejora de red en vivienda implantando Wi-Fi mesh con 3 nodos tribanda.</p>
+  </a>
+
+  <a class="project-card" href="/domotica/">
+    <img src="/assets/images/dron/dron.JPG" alt="Proyecto domótica">
+    <h3>Domotización de vivienda unifamiliar</h3>
+    <p>Unificación mediante Home Assistant de dispositivos IoT.</p>
+  </a>
+
+  <a class="project-card" href="/bateria/">
+    <img src="/assets/images/batery/batery.JPG" alt="Construcción de batería LiFePO4">
+    <h3>Montaje de batería 5S8P para equipo de robótica</h3>
+    <p>Montaje y soldadura de celdas LiFePO4 18650 y BMS Daly.</p>
+  </a>
+</div>
 
 ## 👨‍💻 Sobre mí
 
