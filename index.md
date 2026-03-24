@@ -1,5 +1,3 @@
-este es mi index ahora 
-
 ---
 layout: splash
 title: "Juan López"
