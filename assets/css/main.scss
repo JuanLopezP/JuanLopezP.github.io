@@ -155,7 +155,7 @@ h1, h2, h3, h4 {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1024px) {
   .project-grid {
     grid-template-columns: 1fr;
   }
