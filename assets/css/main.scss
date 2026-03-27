@@ -228,7 +228,7 @@ h1, h2, h3, h4 {
   height: 100%;
   object-fit: cover;
   opacity: 0;
-  animation: aboutFade 30s infinite;
+  animation: aboutFade 12s infinite;
 }
 
 .about-image-slider img:nth-child(1) {
@@ -236,11 +236,11 @@ h1, h2, h3, h4 {
 }
 
 .about-image-slider img:nth-child(2) {
-  animation-delay: 4s;
+  animation-delay: 8s;
 }
 
 .about-image-slider img:nth-child(3) {
-  animation-delay: 8s;
+  animation-delay: 12s;
 }
 
 @keyframes aboutFade {
