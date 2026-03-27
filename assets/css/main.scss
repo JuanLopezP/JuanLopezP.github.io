@@ -195,3 +195,69 @@ h1, h2, h3, h4 {
     grid-template-columns: 1fr;
   }
 }
+/* Carrousel de fotos */
+/* ===== ABOUT SECTION ===== */
+
+.about-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin: 2rem 0 3rem 0;
+}
+
+.about-text {
+  color: #c9d1d9;
+  line-height: 1.6;
+}
+
+/* Slider cuadrado */
+.about-image-slider {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 16px;
+  border: 1px solid #30363d;
+}
+
+.about-image-slider img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  animation: aboutFade 12s infinite;
+}
+
+.about-image-slider img:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.about-image-slider img:nth-child(2) {
+  animation-delay: 4s;
+}
+
+.about-image-slider img:nth-child(3) {
+  animation-delay: 8s;
+}
+
+@keyframes aboutFade {
+  0% { opacity: 0; }
+  8% { opacity: 1; }
+  30% { opacity: 1; }
+  38% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    grid-template-columns: 1fr;
+  }
+
+  .about-image-slider {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+}
