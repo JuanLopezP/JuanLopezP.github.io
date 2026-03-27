@@ -84,7 +84,7 @@ Desde pequeño, aprendí valores como el esfuerzo, el trabajo duro y la constanc
   </div>
 
 </div>
-
+---
 
 ## ⚙️ Áreas de trabajo
 
@@ -104,5 +104,6 @@ En cada proyecto incluyo:
 - Problemas encontrados
 - Mejoras futuras
 
+## Proyectos
 {% include feature_row %}
 
