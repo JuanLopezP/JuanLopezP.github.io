@@ -10,7 +10,7 @@ header:
       url: /projects/
 
 excerpt: "Ingeniería, domótica, automatización, mecánica y agricultura 3.0 aplicada a problemas reales."
-
+---
 {% include feature_row %}
 
 ## 👨‍💻 Sobre mí
@@ -39,6 +39,7 @@ excerpt: "Ingeniería, domótica, automatización, mecánica y agricultura 3.0 a
 
 </div>
 
+
 ## ⚙️ Áreas de trabajo
 
 - Domótica
@@ -56,6 +57,9 @@ En cada proyecto incluyo:
 - Implementación
 - Problemas encontrados
 - Mejoras futuras
+
+
+---
 
 feature_row:
   - image_path: /assets/images/portada.JPG
@@ -106,5 +110,5 @@ feature_row:
     btn_label: "Ver proyecto"
     btn_class: "btn--primary"
 ---
-
+{% include feature_row %}
 
