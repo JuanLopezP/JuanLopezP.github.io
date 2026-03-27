@@ -21,10 +21,11 @@ excerpt: "Ingeniería, domótica, automatización, mecánica y agricultura 3.0 a
       Estudiante de Ingeniería e inquieto por naturaleza
     </p>
 
-   Soy un estudiante en la Universidad de Málaga cursando el grado en Ingeniería Electrónica, Robótica y Mecatrónica. Participante en un equipo asociado a la UMA llamado [Roborescue UMA](https://github.com/RoboRescueUMA). Entre mis aficiones se encuentran tanto el diseño como la impresión en 3D y el mundo de los drones colaborando en proyectos que posteriormente enlazaré por si te apetece echarles un ojo. 
+Soy estudiante de la **Universidad de Málaga** cursando el grado en **Ingeniería Electrónica, Robótica y Mecatrónica** 🤖. También soy parte del equipo **[Roborescue UMA](https://github.com/RoboRescueUMA)** 🏆.  
 
-Por otro lado a lo largo de toda mi infancia he aprendido de primera mano valores como el esfuerzo, el trabajo duro y la constancia, asociado a los conocimientos de mecánica al trabajar con maquinaría agrícola desde bien chiquitito. 
-Todo esto junto con mi interés por la robótica/mecatrónica que llevaron a meterme a estudiar esta variopinta carrera. Me considero una persona inquieta que trata de buscar siempre nuevos retos y nuevos campos de aprendizaje.
+🔧 Me apasiona el **diseño y la impresión 3D**  y el mundo de los **drones** , colaborando en proyectos súper interesantes (más abajo encontrarás algunos enlaces por si quieres echarles un ojo 👀).  
+
+Desde pequeño, aprendí valores como el **esfuerzo, el trabajo duro y la constancia** 💪, además de adquirir conocimientos en **mecánica**  mientras trabajaba con maquinaria agrícola 🚜. Todo esto, sumado a mi pasión por la **robótica y la mecatrónica**, me llevó a estudiar esta carrera tan increíble. Me considero una persona **curiosa e inquieta**, siempre buscando **nuevos retos y aprendizajes** 🎯.  
   </div>
 
   <div class="about-image-slider">
