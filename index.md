@@ -11,6 +11,50 @@ header:
 
 excerpt: "Ingeniería, domótica, automatización, mecánica y agricultura 3.0 aplicada a problemas reales."
 
+## 👨‍💻 Sobre mí
+
+<div class="about-section">
+  
+  <div class="about-text">
+    <p>
+      Ingeniero en robótica centrado en sistemas reales: domótica, control energético e instalaciones eléctricas.
+    </p>
+
+    <p>
+      Me enfoco en diseñar soluciones prácticas combinando hardware, software y automatización para mejorar eficiencia y fiabilidad en entornos reales.
+    </p>
+
+    <p>
+      Actualmente trabajo en proyectos relacionados con energía, automatización doméstica y sistemas técnicos aplicados.
+    </p>
+  </div>
+
+  <div class="about-image-slider">
+    <img src="/assets/images/yo1.jpg" alt="Juan López 1">
+    <img src="/assets/images/yo2.jpg" alt="Juan López 2">
+    <img src="/assets/images/yo3.jpg" alt="Juan López 3">
+  </div>
+
+</div>
+
+## ⚙️ Áreas de trabajo
+
+- Domótica
+- Automatización
+- Instalaciones eléctricas
+- Gestión energética
+- Integración hardware + software
+
+## 🧪 Cómo documento los proyectos
+
+En cada proyecto incluyo:
+
+- Objetivo
+- Arquitectura del sistema
+- Implementación
+- Problemas encontrados
+- Mejoras futuras
+
 feature_row:
   - image_path: /assets/images/portada.JPG
     alt: "Proyecto sótano"
