@@ -69,12 +69,13 @@ feature_row:
       Estudiante de Ingeniería e inquieto por naturaleza
     </p>
   <p>
-Soy estudiante de la <strong>Universidad de Málaga</strong> cursando el grado en Ingeniería Electrónica, Robótica y Mecatrónica 🤖. También soy parte del equipo <a href="https://github.com/RoboRescueUMA" target="_blank">Roborescue UMA</a> 🏆.  
+  <p> Soy estudiante de la <strong>Universidad de Málaga</strong> cursando el grado en Ingeniería Electrónica, Robótica y Mecatrónica 🤖. También soy parte del equipo <a href="https://github.com/RoboRescueUMA" target="_blank">Roborescue UMA</a> 🏆.   </p>
 
-🔧 Me apasiona el diseño y la impresión 3D y el mundo de los drones , colaborando en proyectos súper interesantes (más abajo encontrarás algunos enlaces por si quieres echarles un ojo 👀).  
+  <p> 🔧 Me apasiona el diseño y la impresión 3D y el mundo de los drones , colaborando en proyectos súper interesantes (más abajo encontrarás algunos enlaces por si quieres echarles un ojo 👀).   </p>
 
-Desde pequeño, aprendí valores como el esfuerzo, el trabajo duro y la constancia 💪, además de adquirir conocimientos en mecánica  mientras trabajaba con maquinaria agrícola 🚜. Todo esto, sumado a mi pasión por la robótica y la mecatrónica, me llevó a estudiar esta carrera tan increíble. Me considero una persona curiosa e inquieta, siempre buscando nuevos retos y aprendizajes 🎯.  
+  <p> Desde pequeño, aprendí valores como el esfuerzo, el trabajo duro y la constancia 💪, además de adquirir conocimientos en mecánica  mientras trabajaba con maquinaria agrícola 🚜. Todo esto, sumado a mi pasión por la robótica y la mecatrónica, me llevó a estudiar esta carrera tan increíble. Me considero una persona curiosa e inquieta, siempre buscando nuevos retos y aprendizajes 🎯.   </p>
 </p>
+
   </div>
 
   <div class="about-image-slider">
@@ -84,15 +85,16 @@ Desde pequeño, aprendí valores como el esfuerzo, el trabajo duro y la constanc
   </div>
 
 </div>
----
 
-## ⚙️ Áreas de trabajo
+## ⚙️ Áreas de interés
 
 - Domótica
 - Automatización
 - Instalaciones eléctricas
 - Gestión energética
 - Integración hardware + software
+- Agricltura de precisión
+- Mecánica de maquinaria agrícola
 
 ## 🧪 Cómo documento los proyectos
 
