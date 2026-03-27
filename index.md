@@ -82,7 +82,7 @@ feature_row:
   </div>
 
   <div class="about-image-slider">
-    <img src="/assets/images/Yo1.jepg" alt="Juan López 1">
+    <img src="/assets/images/Yo1.jpeg" alt="Juan López 1">
     <img src="/assets/images/Yo2.jpg" alt="Juan López 2">
     <img src="/assets/images/Yo3.jpg" alt="Juan López 3">
   </div>
