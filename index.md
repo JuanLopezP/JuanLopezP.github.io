@@ -27,7 +27,7 @@ feature_row:
     btn_label: "Ver proyecto"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/dron/dron.JPG
+  - image_path: /assets/images/dron/dron.jpg
     alt: "Proyecto dron"
     title: "Vigilancia e inspección aerea regadios"
     excerpt: "Análisis mediante UAV de efectividad de riegos en fincas privadas"
