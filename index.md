@@ -12,7 +12,6 @@ header:
 excerpt: "Ingeniería, domótica, automatización, mecánica y agricultura 3.0 aplicada a problemas reales."
 
 ## 👨‍💻 Sobre mí
-
 <div class="about-section">
   
   <div class="about-text">
