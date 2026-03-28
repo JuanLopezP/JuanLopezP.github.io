@@ -14,5 +14,5 @@ Si quieres hablar sobre un proyecto, colaboración o cualquier idea, puedes escr
 </p>
 
 <p>
-  O directamente a: <strong>TUEMAIL@gmail.com</strong>
+  O directamente a: <strong>pueblalopezjuan@gmail.com</strong>
 </p>
