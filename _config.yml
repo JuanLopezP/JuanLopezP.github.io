@@ -9,12 +9,15 @@ plugins:
 name: Juan López
 author:
   name: Juan López
-  bio: Ingeniero en robótica. Documentando proyectos de domótica, instalaciones y automatización.
+  bio: Estudiante de ingeniería. Apasionado por aprender día a día y cacharrear siempre.
   location: Málaga, España
   links:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/JuanLopezP"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin-in"
+      url: "www.linkedin.com/in/juanlopezpuebla"
 
 sass:
   style: compressed
