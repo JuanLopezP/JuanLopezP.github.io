@@ -3,6 +3,6 @@ main:
     url: /
   - title: "Proyectos"
     url: /projects/
-  - title: "Sobre mí"
-    url: /about/
+  - title: "Contáctame"
+    url: /contact/
  
