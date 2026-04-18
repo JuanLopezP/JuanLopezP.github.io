@@ -35,11 +35,10 @@ Hasta este cuadro bajará cable de 6 mm^2 desde el cuadro principal. Todo esto c
 
 ### Cuadro eléctrico de fuerza 
 Para realizar el cuadro eléctrico de fuerza se han tirado los cables directamente y se ha colocado una caja con capacidad para 7 dispositivos y espacio suficiente para meter relés inteligentes de domótica.
-![Cuadro eléctrico vacío](/assets/images/sotano/CuadroVacio.JPG)
 <p align="center">
-  <img src="/assets/images/sotano/CuadroVacio.JPG" width="500">
-<p align="left">
-  <img src="/assets/images/sotano/CuadroVacio.JPG" width="250">
+  <img src="/assets/images/sotano/CuadroVacio.JPG" 
+       alt="Cuadro eléctrico vacío"
+       style="width: 320px; height: 220px; object-fit: cover; border-radius: 16px; margin: 10px;">
 </p>
 ### Iluminación
 ### Tomas de corriente
