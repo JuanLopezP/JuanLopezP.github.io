@@ -38,7 +38,7 @@ Para realizar el cuadro eléctrico de fuerza se han tirado los cables directamen
 <p align="center">
   <img src="/assets/images/sotano/CuadroVacio.JPG" 
        alt="Cuadro eléctrico vacío"
-       style="width: 450px; height: 320px; object-fit: cover; border-radius: 16px; margin: 10px;">
+       style="width: 500px; object-fit: cover; border-radius: 16px; margin: 10px;">
 </p>
 ### Iluminación
 ### Tomas de corriente
