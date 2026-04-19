@@ -60,11 +60,6 @@ Hasta este cuadro bajará cable de 6 mm^2 desde el cuadro principal. Todo esto c
     </p>
   </div>
 
-  <!-- Imagen -->
-  <div style="flex: 1; min-width: 300px;">
-    <img src="/assets/images/sotano/Crimpado.JPG" 
-         style="width: 100%; border-radius: 16px;">
-  </div>
 
 </div>
 <p align="center">
@@ -87,7 +82,13 @@ Hasta este cuadro bajará cable de 6 mm^2 desde el cuadro principal. Todo esto c
       Una vez terminada la parte superior del cuadro procedí a realizar la parte inferior uniendo cada uno de los enchufes situados en la parte baja de la imajen con su correspondiente magnetotérmico. Se puede ubicar en uno de los lados un contactor cuyo propósito básicamente se centra en evitar que el relé inteligente encargado de gestionar la temporización del termo no tenga que aguantar todo el paso de corriente por el ( aunque se compró así dimensionado por ese mismo motivo). 
     </p>
   </div>
-una vez termiado el cuadro me gustarñia comentar algo sobre la domótica añadida. El dispositivo de color rojo se trata de un shelly 1pm 
+una vez termiado el cuadro me gustaría comentar algo sobre la domótica añadida. El dispositivo de color rojo se trata de un shelly 1pm gen 4 que permite conexión en multiples protocolos como zigbe o matter
+  <!-- Imagen -->
+  <div style="flex: 1; min-width: 300px;">
+    <img src="/assets/images/sotano/Crimpado.JPG" 
+         style="width: 100%; border-radius: 16px;">
+  </div>
+
 
 ### Iluminación
 ### Tomas de corriente
