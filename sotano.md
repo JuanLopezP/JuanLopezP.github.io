@@ -47,7 +47,7 @@ Hasta este cuadro bajará cable de 6 mm^2 desde el cuadro principal. Todo esto c
   <div style="flex: 1; min-width: 300px;">
     <p>
       Para realizar el cuadro eléctrico de fuerza se tiraron los cables directamente desde el cuadro de la vivienda
-      y se ha colocado una caja con capacidad para 7 dispositivos. La intención por la que se escogió esta caja pasa por la intención de ir metiendo algunos relés inteligentes que nos ayuden a controlar la temporización de los diferentes electrodomésticos. El objetivo final resulta en ayudar a la toma de decisiones en tiempo real. Un ejemplo podría ser controlar la temporización de la calefacción de la calefacción en función a la temperatura medida.
+      y se ha colocado una caja con capacidad para 7 dispositivos. La intención por la que se escogió esta caja pasa por la intención de ir metiendo algunos relés inteligentes que nos ayuden a controlar la temporización de los diferentes electrodomésticos. 
     </p>
   </div>
 
@@ -56,17 +56,11 @@ Hasta este cuadro bajará cable de 6 mm^2 desde el cuadro principal. Todo esto c
     <!-- Texto -->
   <div style="flex: 1; min-width: 300px;">
     <p>
+      El objetivo final resulta en ayudar a la toma de decisiones en tiempo real. Un ejemplo podría ser controlar la temporización de la calefacción de la calefacción en función a la temperatura medida.
       Para la construcción del cuadro eléctrico estuve investigando en diversas fuentes la mejor forma de hacerlo de la forma lo más ordenada posible y ahí encontré las punteras y la crimpadora. Estas ya las he usado para el cableado de alguno de los robots del equipo por tanto sabía que eran productos de calidad. Así empece a construir el cuadro realizando los puentes en la parte superior para repartir la tensión de forma equitativa a los diversos dispositivos. 
     </p>
   </div>
 
-
-</div>
-<p align="center">
-  <img src="/assets/images/sotano/CuadroVacio.JPG" 
-       alt="Cuadro eléctrico vacío"
-       style="width: 500px; object-fit: cover; border-radius: 16px; margin: 10px;">
-</p>
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 20px; margin: 20px 0;">
 
@@ -82,19 +76,24 @@ Hasta este cuadro bajará cable de 6 mm^2 desde el cuadro principal. Todo esto c
       Una vez terminada la parte superior del cuadro procedí a realizar la parte inferior uniendo cada uno de los enchufes situados en la parte baja de la imajen con su correspondiente magnetotérmico. Se puede ubicar en uno de los lados un contactor cuyo propósito básicamente se centra en evitar que el relé inteligente encargado de gestionar la temporización del termo no tenga que aguantar todo el paso de corriente por el ( aunque se compró así dimensionado por ese mismo motivo). 
     </p>
   </div>
-una vez termiado el cuadro me gustaría comentar algo sobre la domótica añadida. El dispositivo de color rojo se trata de un shelly 1pm gen 4 que permite conexión en multiples protocolos como zigbe o matter
+
   <!-- Imagen -->
   <div style="flex: 1; min-width: 300px;">
     <img src="/assets/images/sotano/Crimpado.JPG" 
          style="width: 100%; border-radius: 16px;">
   </div>
-
+una vez termiado el cuadro me gustaría comentar algo sobre la domótica añadida. El dispositivo de color rojo se trata de un shelly 1pm gen 4 que permite conexión en multiples protocolos como zigbe o matter
 
 ### Iluminación
 ### Tomas de corriente
 
 ## Problemas encontrados
-
+</div>
+<p align="center">
+  <img src="/assets/images/sotano/CuadroVacio.JPG" 
+       alt="Cuadro eléctrico vacío"
+       style="width: 500px; object-fit: cover; border-radius: 16px; margin: 10px;">
+</p>
 - limitación de espacio
 - decisiones sobre protecciones
 - ampliaciones futuras
