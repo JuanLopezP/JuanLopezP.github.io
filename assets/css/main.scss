@@ -1,15 +1,36 @@
 ---
 ---
 
+/* ==============================================
+   1. IMPORT DEL TEMA BASE
+   Carga todos los estilos de Minimal Mistakes.
+   Todo lo que escribimos debajo sobreescribe o
+   amplía ese tema para adaptarlo al diseño oscuro.
+   ============================================== */
+
 @import "minimal-mistakes";
 
-/* Fondo general */
+
+/* ==============================================
+   2. FONDO Y COLOR DE TEXTO GLOBAL
+   Afecta: toda la página.
+   Establece el fondo oscuro tipo GitHub y el color
+   de texto base. Sin esto, el tema usa fondo blanco.
+   ============================================== */
+
 html, body {
   background: #0d1117;
   color: #e6edf3;
 }
 
-/* Barra superior */
+
+/* ==============================================
+   3. BARRA DE NAVEGACIÓN SUPERIOR
+   Afecta: el menú que aparece en todas las páginas.
+   Forzamos el fondo oscuro en todos los elementos
+   del nav porque el tema los pone blancos por defecto.
+   ============================================== */
+
 .masthead {
   background: #0d1117 !important;
   border-bottom: 1px solid #30363d !important;
@@ -19,6 +40,7 @@ html, body {
   background: #0d1117 !important;
 }
 
+/* El nav desplegable (menú hamburguesa en móvil) */
 .greedy-nav {
   background: #0d1117 !important;
 }
@@ -28,6 +50,7 @@ html, body {
   background: #0d1117 !important;
 }
 
+/* Color de los enlaces del menú */
 .greedy-nav a,
 .site-title {
   color: #e6edf3 !important;
@@ -38,54 +61,59 @@ html, body {
   color: #58a6ff !important;
 }
 
-/* Hero */
+
+/* ==============================================
+   4. HERO — CABECERA CON IMAGEN Y OVERLAY
+   Afecta: la imagen de portada con texto encima,
+   presente en index.md y en las páginas de proyectos.
+   El overlay oscurece la foto para que el texto sea legible.
+   ============================================== */
+
 .page__hero--overlay {
   background-color: #000000;
 }
 
+/* Texto que aparece sobre la imagen (título, subtítulo) */
 .page__hero--overlay .page__title,
 .page__hero--overlay .page__lead,
 .page__hero--overlay .page__excerpt {
   color: #f0f6fc !important;
 }
 
-/* Tarjetas */
-.feature__item {
-  background: #161b22;
-  border: 1px solid #30363d;
-  border-radius: 16px;
-  overflow: hidden;
 
-  width: 100% !important;
-  max-width: none !important;
-  margin: 0 !important;
-  float: none !important;
+/* ==============================================
+   5. ÁREA DE CONTENIDO Y TIPOGRAFÍA
+   Afecta: el cuerpo de texto de todas las páginas.
+   Forzamos el fondo oscuro en los contenedores del
+   tema y definimos los colores de párrafos y encabezados.
+   ============================================== */
+
+/* Fondo del área principal de contenido */
+.page,
+.page__inner-wrap,
+.initial-content,
+.archive {
+  background: #0d1117 !important;
 }
 
-.feature__wrapper {
-  display: grid !important;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-  margin: 2rem 0 3rem 0;
+/* Texto de párrafos y listas */
+p, li {
+  color: #c9d1d9;
 }
 
-.feature__item img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  display: block;
+/* Encabezados h1–h4 */
+h1, h2, h3, h4 {
+  color: #f0f6fc;
 }
 
-.feature__item .archive__item-title,
-.feature__item .archive__item-title a {
-  color: #f0f6fc !important;
-}
 
-.feature__item .archive__item-excerpt {
-  color: #c9d1d9 !important;
-}
+/* ==============================================
+   6. BOTONES
+   Afecta: todos los botones del sitio, especialmente
+   los "Ver proyecto" de las tarjetas en index.md.
+   Usamos verde tipo GitHub en lugar del azul por defecto.
+   ============================================== */
 
-/* Botones */
 .btn,
 .btn--primary {
   background: #238636 !important;
@@ -99,28 +127,133 @@ html, body {
   background: #2ea043 !important;
 }
 
-/* Contenido */
-.page,
-.page__inner-wrap,
-.initial-content,
-.archive {
-  background: #0d1117 !important;
-}
 
-p, li {
-  color: #c9d1d9;
-}
+/* ==============================================
+   7. FOOTER
+   Afecta: la barra inferior con el copyright y los
+   enlaces del autor que aparece en todas las páginas.
+   ============================================== */
 
-h1, h2, h3, h4 {
-  color: #f0f6fc;
-}
-
-/* Footer */
 .page__footer {
   background: #0d1117 !important;
   border-top: 1px solid #30363d;
 }
 
+
+/* ==============================================
+   8. PÁGINA DE INICIO — GRID DE PROYECTOS
+   Afecta: las tarjetas de proyectos en index.md,
+   generadas con {% include feature_row %}.
+   Sobreescribimos el layout de floats del tema
+   por un CSS Grid de 3 columnas más moderno.
+   ============================================== */
+
+/* Contenedor del grid (sobreescribe el sistema de floats del tema) */
+.feature__wrapper {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 2rem 0 3rem 0;
+}
+
+/* Cada tarjeta individual */
+.feature__item {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 16px;
+  overflow: hidden;
+  /* Anulamos los estilos de float/width del tema original */
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  float: none !important;
+}
+
+/* Imagen de la tarjeta */
+.feature__item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Título dentro de la tarjeta */
+.feature__item .archive__item-title,
+.feature__item .archive__item-title a {
+  color: #f0f6fc !important;
+}
+
+/* Descripción dentro de la tarjeta */
+.feature__item .archive__item-excerpt {
+  color: #c9d1d9 !important;
+}
+
+
+/* ==============================================
+   9. PÁGINA DE INICIO — SECCIÓN "SOBRE MÍ"
+   Afecta: el bloque con texto biográfico y carrusel
+   de fotos en index.md.
+   Layout: dos columnas (texto a la izq, fotos a la der).
+   ============================================== */
+
+/* Contenedor principal: texto a la izquierda, imagen a la derecha */
+.about-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin: 2rem 0 3rem 0;
+}
+
+.about-text {
+  color: #c9d1d9;
+  line-height: 1.6;
+}
+
+/* Marco cuadrado donde se apilan las fotos */
+.about-image-slider {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 16px;
+  border: 1px solid #30363d;
+}
+
+/* Cada foto ocupa todo el marco y se muestra/oculta con fade */
+.about-image-slider img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  animation: aboutFade 24s infinite;
+}
+
+/* Cada foto empieza su ciclo 8s después de la anterior */
+.about-image-slider img:nth-child(1) { animation-delay: 0s; }
+.about-image-slider img:nth-child(2) { animation-delay: 8s; }
+.about-image-slider img:nth-child(3) { animation-delay: 16s; }
+
+/* Ciclo: aparece → se mantiene → desaparece */
+@keyframes aboutFade {
+  0%   { opacity: 0; }
+  8%   { opacity: 1; }
+  30%  { opacity: 1; }
+  38%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+
+/* ==============================================
+   10. PÁGINA DE PROYECTOS — TARJETAS PERSONALIZADAS
+   Afecta: la cuadrícula de tarjetas en projects.md.
+   A diferencia del feature_row de index.md, estas
+   tarjetas son HTML manual con clases propias.
+   ============================================== */
+
+/* Grid de 3 columnas para las tarjetas */
 .project-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -128,6 +261,7 @@ h1, h2, h3, h4 {
   margin: 2rem 0 3rem 0;
 }
 
+/* Tarjeta individual con efecto hover de elevación */
 .project-card {
   display: flex;
   flex-direction: column;
@@ -168,102 +302,17 @@ h1, h2, h3, h4 {
   flex-grow: 1;
 }
 
-@media (max-width: 1024px) {
-  .project-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
 
-@media (max-width: 1024px) {
-  .project-grid {
-    grid-template-columns: 1fr;
-  }
+/* ==============================================
+   11. PÁGINAS DE DETALLE DE PROYECTO
+   Afecta: las páginas individuales de cada proyecto
+   (ej. sotano.md). Incluye tres componentes:
+     - .project-img-text  → par imagen + texto lado a lado
+     - .project-figure    → imagen centrada con pie de foto
+     - .notice--info      → caja de aviso azul destacada
+   ============================================== */
 
-  .project-card img {
-    height: 200px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .feature__wrapper {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 640px) {
-  .feature__wrapper {
-    grid-template-columns: 1fr;
-  }
-}
-/* Carrousel de fotos */
-/* ===== ABOUT SECTION ===== */
-
-.about-section {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 2rem;
-  align-items: center;
-  margin: 2rem 0 3rem 0;
-}
-
-.about-text {
-  color: #c9d1d9;
-  line-height: 1.6;
-}
-
-/* Slider cuadrado */
-.about-image-slider {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  overflow: hidden;
-  border-radius: 16px;
-  border: 1px solid #30363d;
-}
-
-.about-image-slider img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0;
-  animation: aboutFade 24s infinite;
-}
-
-.about-image-slider img:nth-child(1) {
-  animation-delay: 0s;
-}
-
-.about-image-slider img:nth-child(2) {
-  animation-delay: 8s;
-}
-
-.about-image-slider img:nth-child(3) {
-  animation-delay: 16s;
-}
-
-@keyframes aboutFade {
-  0% { opacity: 0; }
-  8% { opacity: 1; }
-  30% { opacity: 1; }
-  38% { opacity: 0; }
-  100% { opacity: 0; }
-}
-
-@media (max-width: 768px) {
-  .about-section {
-    grid-template-columns: 1fr;
-  }
-
-  .about-image-slider {
-    max-width: 250px;
-    margin: 0 auto;
-  }
-}
-
-/* ===== PROJECT DETAIL PAGES ===== */
-
+/* Par imagen-texto: imagen y texto en fila */
 .project-img-text {
   display: flex;
   gap: 2rem;
@@ -272,6 +321,7 @@ h1, h2, h3, h4 {
   flex-wrap: wrap;
 }
 
+/* Variante con imagen a la derecha y texto a la izquierda */
 .project-img-text--reversed {
   flex-direction: row-reverse;
 }
@@ -293,6 +343,7 @@ h1, h2, h3, h4 {
   min-width: 260px;
 }
 
+/* Imagen centrada con pie de foto */
 .project-figure {
   text-align: center;
   margin: 2.5rem 0;
@@ -312,6 +363,7 @@ h1, h2, h3, h4 {
   font-style: italic;
 }
 
+/* Caja de aviso azul (sobreescribe el estilo claro del tema) */
 .notice--info {
   background: #1c2d3a !important;
   border-left: 4px solid #58a6ff !important;
@@ -325,9 +377,64 @@ h1, h2, h3, h4 {
   color: #f0f6fc !important;
 }
 
+
+/* ==============================================
+   12. RESPONSIVE — ADAPTACIONES PARA TABLET Y MÓVIL
+   Afecta: todos los grids y layouts del sitio.
+   Breakpoints usados:
+     1024px → tablet apaisada
+      768px → tablet vertical / móvil grande
+      640px → móvil estándar
+   ============================================== */
+
+/* --- Tablet (≤ 1024px) --- */
+@media (max-width: 1024px) {
+
+  /* Grid de proyectos en index.md: 3 → 2 columnas */
+  .feature__wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Grid de tarjetas en projects.md: 3 → 2 columnas */
+  .project-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* --- Móvil (≤ 768px) --- */
 @media (max-width: 768px) {
+
+  /* Sección "Sobre mí": columnas → apilado vertical */
+  .about-section {
+    grid-template-columns: 1fr;
+  }
+
+  .about-image-slider {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  /* Pares imagen-texto en páginas de proyecto: fila → columna */
   .project-img-text,
   .project-img-text--reversed {
     flex-direction: column;
+  }
+
+  /* Grid de tarjetas en projects.md: 2 → 1 columna */
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card img {
+    height: 200px;
+  }
+}
+
+/* --- Móvil pequeño (≤ 640px) --- */
+@media (max-width: 640px) {
+
+  /* Grid de proyectos en index.md: 2 → 1 columna */
+  .feature__wrapper {
+    grid-template-columns: 1fr;
   }
 }
