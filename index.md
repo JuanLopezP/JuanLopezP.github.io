@@ -25,7 +25,7 @@ feature_row:
     alt: "Automatización bomba de achique"
     title: "Automatización bomba de achique"
     excerpt: "Análisis meteorológico para energización automática de bomba de achique."
-    url: /excedentes/
+    url: /bomba-achique/
     btn_label: "Ver proyecto"
     btn_class: "btn--primary"
 
@@ -33,31 +33,31 @@ feature_row:
     alt: "Vigilancia aérea con UAV"
     title: "Vigilancia aérea de regadíos"
     excerpt: "Análisis mediante UAV de la efectividad de sistemas de riego en fincas privadas."
-    url: /excedentes/
+    url: /dron-riego/
     btn_label: "Ver proyecto"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/mesh/mesh.JPG
+  - image_path: /assets/images/wifi-mesh/portada.jpg
     alt: "Wifi mesh"
     title: "Instalación wifi mesh en vivienda"
     excerpt: "Mejora de cobertura con red mesh tribanda de 3 nodos en vivienda unifamiliar."
-    url: /excedentes/
+    url: /wifi-mesh/
     btn_label: "Ver proyecto"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/dron/dron.JPG
+  - image_path: /assets/images/domotica/portada.jpg
     alt: "Domotización hogar"
     title: "Domotización de vivienda unifamiliar"
     excerpt: "Unificación de dispositivos IoT bajo Home Assistant con automatizaciones personalizadas."
-    url: /excedentes/
+    url: /domotica/
     btn_label: "Ver proyecto"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/batery/batery.JPG
+  - image_path: /assets/images/bateria/portada.jpg
     alt: "Batería LiFePo4"
     title: "Batería 5S8P para equipo de robótica"
     excerpt: "Montaje y soldadura de celdas LiFePo4 18650 con BMS Daly para equipo de competición."
-    url: /excedentes/
+    url: /bateria/
     btn_label: "Ver proyecto"
     btn_class: "btn--primary"
 ---

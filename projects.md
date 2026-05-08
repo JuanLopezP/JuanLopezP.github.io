@@ -16,7 +16,7 @@ permalink: /projects/
     <p>Diseño eléctrico completo, distribución de cargas y automatización con Shelly 1PM Gen 4.</p>
   </a>
 
-  <a href="/excedentes/" class="project-card">
+  <a href="/bomba-achique/" class="project-card">
     <img src="/assets/images/sotano/achique.JPG" alt="Bomba de achique">
     <div class="project-card__tags">
       <span>Automatización</span>
@@ -26,7 +26,7 @@ permalink: /projects/
     <p>Análisis meteorológico para energización automática de bomba de achique en sótano.</p>
   </a>
 
-  <a href="/excedentes/" class="project-card">
+  <a href="/dron-riego/" class="project-card">
     <img src="/assets/images/dron/dron.jpg" alt="UAV inspección de regadíos">
     <div class="project-card__tags">
       <span>UAV</span>
@@ -36,8 +36,8 @@ permalink: /projects/
     <p>Análisis mediante UAV de la efectividad de sistemas de riego en fincas privadas.</p>
   </a>
 
-  <a href="/excedentes/" class="project-card">
-    <img src="/assets/images/mesh/mesh.JPG" alt="Red wifi mesh">
+  <a href="/wifi-mesh/" class="project-card">
+    <img src="/assets/images/wifi-mesh/portada.jpg" alt="Red wifi mesh">
     <div class="project-card__tags">
       <span>Redes</span>
       <span>IoT</span>
@@ -46,8 +46,8 @@ permalink: /projects/
     <p>Mejora de cobertura con red mesh tribanda de 3 nodos en vivienda unifamiliar.</p>
   </a>
 
-  <a href="/excedentes/" class="project-card">
-    <img src="/assets/images/dron/dron.JPG" alt="Domotización hogar">
+  <a href="/domotica/" class="project-card">
+    <img src="/assets/images/domotica/portada.jpg" alt="Domotización hogar">
     <div class="project-card__tags">
       <span>Domótica</span>
       <span>Home Assistant</span>
@@ -56,8 +56,8 @@ permalink: /projects/
     <p>Unificación de dispositivos IoT bajo Home Assistant con automatizaciones personalizadas.</p>
   </a>
 
-  <a href="/excedentes/" class="project-card">
-    <img src="/assets/images/batery/batery.JPG" alt="Batería LiFePo4">
+  <a href="/bateria/" class="project-card">
+    <img src="/assets/images/bateria/portada.jpg" alt="Batería LiFePo4">
     <div class="project-card__tags">
       <span>Robótica</span>
       <span>Electrónica</span>
