@@ -8,74 +8,68 @@ header:
   actions:
     - label: "Ver proyectos"
       url: /projects/
+    - label: "GitHub"
+      url: "https://github.com/JuanLopezP"
 
-excerpt: "Ingeniería, domótica, automatización, mecánica y agricultura 3.0 aplicada a problemas reales."
+excerpt: "Construyo instalaciones eléctricas, sistemas domóticos y robots. Estudiante de Ingeniería en Málaga."
 feature_row:
   - image_path: /assets/images/portada.JPG
     alt: "Proyecto sótano"
     title: "Instalación eléctrica y domótica del sótano"
-    excerpt: "Diseño eléctrico, distribución de cargas y preparación para automatización."
+    excerpt: "Diseño eléctrico, distribución de cargas y automatización con Shelly 1PM Gen 4."
     url: /sotano/
     btn_label: "Ver proyecto"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/sotano/achique.JPG
-    alt: "Proyecto excedentes"
+    alt: "Automatización bomba de achique"
     title: "Automatización bomba de achique"
-    excerpt: "Análisis meteorológico para energización de bomba de achique"
+    excerpt: "Análisis meteorológico para energización automática de bomba de achique."
     url: /excedentes/
     btn_label: "Ver proyecto"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/dron/dron.jpg
-    alt: "Proyecto dron"
-    title: "Vigilancia e inspección aerea regadios"
-    excerpt: "Análisis mediante UAV de efectividad de riegos en fincas privadas"
+    alt: "Vigilancia aérea con UAV"
+    title: "Vigilancia aérea de regadíos"
+    excerpt: "Análisis mediante UAV de la efectividad de sistemas de riego en fincas privadas."
     url: /excedentes/
     btn_label: "Ver proyecto"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/mesh/mesh.JPG
-    alt: "Proyecto wifi"
-    title: "Instalación de wifi mesh en vivienda unifamiliar"
-    excerpt: "Mejora de red en vivienda implantando wifi mesh con 3 nodos tribanda"
+    alt: "Wifi mesh"
+    title: "Instalación wifi mesh en vivienda"
+    excerpt: "Mejora de cobertura con red mesh tribanda de 3 nodos en vivienda unifamiliar."
     url: /excedentes/
     btn_label: "Ver proyecto"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/dron/dron.JPG
-    alt: "Proyecto home"
+    alt: "Domotización hogar"
     title: "Domotización de vivienda unifamiliar"
-    excerpt: "Unificación mediante Home Assistant de dispositivos IoT"
+    excerpt: "Unificación de dispositivos IoT bajo Home Assistant con automatizaciones personalizadas."
     url: /excedentes/
     btn_label: "Ver proyecto"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/batery/batery.JPG
-    alt: "Construcción de batería LiFePo"
-    title: "Montaje de batería 5S8P para equipo de robótica"
-    excerpt: "Montaje y soldadura de celdas LiFePo4 18650 y BMS daly"
+    alt: "Batería LiFePo4"
+    title: "Batería 5S8P para equipo de robótica"
+    excerpt: "Montaje y soldadura de celdas LiFePo4 18650 con BMS Daly para equipo de competición."
     url: /excedentes/
     btn_label: "Ver proyecto"
     btn_class: "btn--primary"
 ---
 
-## 👨‍💻 Sobre mí
+## Sobre mí
 
 <div class="about-section">
-  
+
   <div class="about-text">
-    <p>
-      Estudiante de Ingeniería e inquieto por naturaleza
-    </p>
-  <p>
-  <p> Soy estudiante de la <strong>Universidad de Málaga</strong> cursando el grado en Ingeniería Electrónica, Robótica y Mecatrónica 🤖. También soy parte del equipo <a href="https://github.com/RoboRescueUMA" target="_blank">Roborescue UMA</a> 🏆.   </p>
-
-  <p> 🔧 Me apasiona el diseño y la impresión 3D y el mundo de los drones , colaborando en proyectos súper interesantes (más abajo encontrarás algunos enlaces por si quieres echarles un ojo 👀).   </p>
-
-  <p> Desde pequeño, aprendí valores como el esfuerzo, el trabajo duro y la constancia 💪, además de adquirir conocimientos en mecánica  mientras trabajaba con maquinaria agrícola 🚜. Todo esto, sumado a mi pasión por la robótica y la mecatrónica, me llevó a estudiar esta carrera tan increíble. Me considero una persona curiosa e inquieta, siempre buscando nuevos retos y aprendizajes 🎯.   </p>
-</p>
-
+    <p>Soy estudiante de la <strong>Universidad de Málaga</strong> cursando el grado en Ingeniería Electrónica, Robótica y Mecatrónica. También formo parte del equipo <a href="https://github.com/RoboRescueUMA" target="_blank">Roborescue UMA</a>.</p>
+    <p>Me apasiona el diseño y la impresión 3D, el mundo de los drones y la domótica. Colaboro en proyectos que combinan hardware, software y sistemas reales.</p>
+    <p>Desde pequeño aprendí mecánica trabajando con maquinaria agrícola. Esa mezcla entre lo manual y lo digital es lo que me llevó a la ingeniería y lo que guía cada proyecto que construyo.</p>
   </div>
 
   <div class="about-image-slider">
@@ -86,26 +80,20 @@ feature_row:
 
 </div>
 
-## ⚙️ Áreas de interés
+## Tecnologías y herramientas
 
-- Domótica
-- Automatización
-- Instalaciones eléctricas
-- Gestión energética
-- Integración hardware + software
-- Agricltura de precisión
-- Mecánica de maquinaria agrícola
+<div class="tech-chips">
+  <span>Home Assistant</span>
+  <span>KiCad</span>
+  <span>Arduino / ESP32</span>
+  <span>Zigbee · Matter</span>
+  <span>Impresión 3D</span>
+  <span>FreeCAD</span>
+  <span>UAV / Drones</span>
+  <span>Instalaciones eléctricas</span>
+  <span>ROS</span>
+</div>
 
-## 🧪 Cómo documento los proyectos
+## Proyectos destacados
 
-En cada proyecto incluyo:
-
-- Objetivo
-- Arquitectura del sistema
-- Implementación
-- Problemas encontrados
-- Mejoras futuras
-
-## Proyectos
 {% include feature_row %}
-

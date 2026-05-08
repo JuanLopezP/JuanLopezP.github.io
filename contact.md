@@ -1,18 +1,27 @@
 ---
-title: "Contáctame"
+title: "Contacto"
 layout: single
 permalink: /contact/
-author_profile: true
 ---
 
-Si quieres hablar sobre un proyecto, colaboración o cualquier idea, puedes escribirme directamente:
+<div class="contact-section">
 
-<p>
-  <a href="mailto:pueblalopezjuan@gmail.com" style="display:inline-block; padding:12px 20px; background:#007acc; color:white; text-decoration:none; border-radius:8px;">
-    Enviarme un correo
-  </a>
-</p>
+  <p class="contact-intro">
+    Si tienes un proyecto interesante, quieres colaborar o simplemente charlar sobre tecnología, escríbeme. Siempre estoy abierto a nuevas ideas.
+  </p>
 
-<p>
-  O directamente a: <strong>pueblalopezjuan@gmail.com</strong>
-</p>
+  <div class="contact-links">
+    <a href="mailto:pueblalopezjuan@gmail.com" class="contact-btn contact-btn--primary">
+      Enviar correo
+    </a>
+    <a href="https://github.com/JuanLopezP" class="contact-btn" target="_blank" rel="noopener">
+      GitHub
+    </a>
+    <a href="https://www.linkedin.com/in/juanlopezpuebla/" class="contact-btn" target="_blank" rel="noopener">
+      LinkedIn
+    </a>
+  </div>
+
+  <p class="contact-email">pueblalopezjuan@gmail.com</p>
+
+</div>
