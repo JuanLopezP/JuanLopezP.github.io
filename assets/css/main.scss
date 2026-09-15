@@ -784,3 +784,40 @@ h1, h2, h3, h4 {
 #page-title.page__title {
   color: #f0f6fc !important;
 }
+
+/* Marcadores para proyectos que aún no tienen imagen */
+.project-image-placeholder {
+  display: grid;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  place-items: center;
+  background:
+    linear-gradient(135deg, rgba(88, 166, 255, 0.16), transparent 60%),
+    #161b22;
+  color: #58a6ff;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.feature__item .project-image-placeholder {
+  height: 180px;
+}
+
+.project-card--draft {
+  cursor: default;
+}
+
+.project-status {
+  display: inline-block;
+  color: #8b949e;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.project-card__body > .project-status {
+  margin: auto 1rem 1.1rem;
+}
+
+.feature__item .project-status {
+  margin-top: 0.25rem;
+}
