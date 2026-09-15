@@ -738,8 +738,19 @@ h1, h2, h3, h4 {
 }
 /* Portada: composición más limpia y compacta */
 .layout--splash .page__hero--overlay {
-  min-height: clamp(360px, 42vh, 480px) !important;
-  padding: 3.5rem 0 !important;
+  height: clamp(380px, 42vh, 480px) !important;
+  min-height: 0 !important;
+  box-sizing: border-box;
+  padding: 3rem 0 !important;
+}
+
+/* En pantallas pequeñas permitimos que el contenido determine la altura */
+@media (max-width: 768px) {
+  .layout--splash .page__hero--overlay {
+    height: auto !important;
+    min-height: 360px !important;
+    padding: 2.5rem 0 !important;
+  }
 }
 
 /* GitHub como acción secundaria */
