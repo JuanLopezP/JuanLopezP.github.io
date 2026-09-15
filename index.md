@@ -11,7 +11,7 @@ header:
     - label: "GitHub"
       url: "https://github.com/JuanLopezP"
 
-excerpt: “Electricidad, domótica y robótica llevadas del diseño a la práctica.”
+excerpt: "Electricidad, domótica y robótica llevadas del diseño a la práctica."
 feature_row:
   - image_path: /assets/images/sotano/hero.jpg
     alt: "Proyecto garaje"
@@ -67,9 +67,9 @@ feature_row:
 <div class="about-section">
 
   <div class="about-text">
-    <p>Soy estudiante de la <strong>Universidad de Málaga</strong> cursando el grado en Ingeniería Electrónica, Robótica y Mecatrónica. También formo parte del equipo <a href="https://github.com/RoboRescueUMA" target="_blank">Roborescue UMA</a>.</p>
-    <p>Me apasiona el diseño y la impresión 3D, el mundo de los drones y la domótica. Colaboro en proyectos que combinan hardware, software y sistemas reales.</p>
-    <p>Desde pequeño aprendí mecánica trabajando con maquinaria agrícola. Esa mezcla entre lo manual y lo digital es lo que me llevó a la ingeniería y lo que guía cada proyecto que construyo.</p>
+ <p>Estudio <strong>Ingeniería Electrónica, Robótica y Mecatrónica</strong> en la <strong>Universidad de Málaga</strong> y formo parte del equipo <a href="https://github.com/star-uma" target="_blank" rel="noopener noreferrer">STAR UMA</a>. Desarrollo proyectos que combinan electricidad, automatización, diseño 3D y robótica.</p>
+
+<p>Mi interés por construir empezó entre maquinaria agrícola y mecánica. Hoy combino esa experiencia práctica con la electrónica y el software para convertir ideas en sistemas reales.</p>
   </div>
 
   <div class="about-image-slider">
