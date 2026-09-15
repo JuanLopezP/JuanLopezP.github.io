@@ -2,6 +2,10 @@ title: Juan López
 description: Proyectos de ingeniería, domótica y automatización
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: dark
+locale: "es-ES"
+url: "https://JuanLopezP.github.io"
+baseurl: ""
+repository: "JuanLopezP/JuanLopezP.github.io"
 
 plugins:
   - jekyll-include-cache
