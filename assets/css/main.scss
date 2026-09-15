@@ -623,3 +623,11 @@ h1, h2, h3, h4 {
 .toc__menu li ul > li a {
   color: #8b949e;
 }
+/* Mantener el índice breve y centrado en las secciones principales */
+.toc .nav__title i {
+  display: none;
+}
+
+.toc__menu li ul {
+  display: none;
+}
