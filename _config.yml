@@ -1,0 +1,24 @@
+title: Juan López
+description: Proyectos de ingeniería, domótica y automatización
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: dark
+
+plugins:
+  - jekyll-include-cache
+
+name: Juan López
+author:
+  name: Juan López
+  bio: Estudiante de ingeniería. Apasionado por aprender día a día y cacharrear siempre.
+  location: Málaga, España
+links:
+  - label: "GitHub"
+    icon: "fab fa-fw fa-github"
+    url: "https://github.com/JuanLopezP"
+
+  - label: "LinkedIn"
+    icon: "fab fa-fw fa-linkedin"
+    url: "https://www.linkedin.com/in/juanlopezpuebla/"
+
+sass:
+  style: compressed
