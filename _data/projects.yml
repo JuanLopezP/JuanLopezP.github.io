@@ -1,0 +1,8 @@
+- id: sotano
+  title: "Instalación eléctrica y domótica de un garaje"
+  excerpt: "Diseño eléctrico, distribución de cargas y automatización."
+  image_path: "/assets/images/sotano/hero.jpg"
+  alt: "Cuadro eléctrico y domótico del garaje"
+  url: "/sotano/"
+  published: true
+  featured: true

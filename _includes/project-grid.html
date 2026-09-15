@@ -1,0 +1,25 @@
+<div class="project-grid">
+  {% for project in site.data.projects %}
+    {% if project.published %}
+      <a
+        href="{% if project.external %}{{ project.url }}{% else %}{{ project.url | relative_url }}{% endif %}"
+        class="project-card"
+        {% if project.external %}target="_blank" rel="noopener noreferrer"{% endif %}
+      >
+        <img
+          src="{{ project.image_path | relative_url }}"
+          alt="{{ project.alt }}"
+          loading="lazy"
+        >
+
+        <div class="project-card__body">
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.excerpt }}</p>
+          <span class="project-card__link">
+            {{ project.link_label | default: "Ver proyecto" }} →
+          </span>
+        </div>
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>

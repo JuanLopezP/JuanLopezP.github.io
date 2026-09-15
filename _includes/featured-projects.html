@@ -1,0 +1,37 @@
+<div class="feature__wrapper">
+  {% for project in site.data.projects %}
+    {% if project.published and project.featured %}
+      <div class="feature__item">
+        <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img
+              src="{{ project.image_path | relative_url }}"
+              alt="{{ project.alt }}"
+              loading="lazy"
+            >
+          </div>
+
+          <div class="archive__item-body">
+            <h2 class="archive__item-title">
+              {{ project.title }}
+            </h2>
+
+            <div class="archive__item-excerpt">
+              <p>{{ project.excerpt }}</p>
+            </div>
+
+            <p>
+              <a
+                href="{% if project.external %}{{ project.url }}{% else %}{{ project.url | relative_url }}{% endif %}"
+                class="btn btn--primary"
+                {% if project.external %}target="_blank" rel="noopener noreferrer"{% endif %}
+              >
+                {{ project.link_label | default: "Ver proyecto" }}
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

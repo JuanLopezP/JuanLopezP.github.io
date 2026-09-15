@@ -296,6 +296,19 @@ h1, h2, h3, h4 {
   object-fit: cover;
 }
 
+.project-card__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.project-card__link {
+  margin: auto 1rem 1.1rem;
+  color: #58a6ff;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
 .project-card h3 {
   margin: 1rem 1rem 0.45rem;
   color: #f0f6fc;
