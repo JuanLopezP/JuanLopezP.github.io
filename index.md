@@ -13,7 +13,7 @@ header:
 
 excerpt: "Construyo instalaciones eléctricas, sistemas domóticos y robots. Estudiante de Ingeniería en Málaga."
 feature_row:
-  - image_path: /assets/images/portada.JPG
+  - image_path: /assets/images/sotano/hero.jpg
     alt: "Proyecto sótano"
     title: "Instalación eléctrica y domótica del sótano"
     excerpt: "Diseño eléctrico, distribución de cargas y automatización con Shelly 1PM Gen 4."
@@ -21,7 +21,7 @@ feature_row:
     btn_label: "Ver proyecto"
     btn_class: "btn--primary"
 
-  # - image_path: /assets/images/sotano/achique.JPG
+  # - image_path: /assets/images/sotano/BombaGaraje.JPG
   #   alt: "Automatización bomba de achique"
   #   title: "Automatización bomba de achique"
   #   excerpt: "Análisis meteorológico para energización automática de bomba de achique."

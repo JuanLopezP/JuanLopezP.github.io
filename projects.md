@@ -7,7 +7,7 @@ permalink: /projects/
 <div class="project-grid">
 
   <a href="/sotano/" class="project-card">
-    <img src="/assets/images/portada.JPG" alt="Instalación eléctrica sótano">
+    <img src="/assets/images/sotano/hero.jpg" alt="Instalación eléctrica sótano">
     <div class="project-card__tags">
       <span>Eléctrico</span>
       <span>Domótica</span>
@@ -17,7 +17,7 @@ permalink: /projects/
   </a>
 {% comment %}
   <a href="/bomba-achique/" class="project-card">
-    <img src="/assets/images/sotano/achique.JPG" alt="Bomba de achique">
+    <img src="/assets/images/sotano/BombaGaraje.JPG" alt="Bomba de achique">
     <div class="project-card__tags">
       <span>Automatización</span>
       <span>IoT</span>
