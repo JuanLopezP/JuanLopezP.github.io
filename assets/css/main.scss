@@ -631,3 +631,35 @@ h1, h2, h3, h4 {
 .toc__menu li ul {
   display: none;
 }
+
+/* Sección activa del índice */
+.toc__menu a.active,
+.toc__menu .active > a {
+  background: #21262d !important;
+  color: #f0f6fc !important;
+  border-left: 3px solid #58a6ff;
+}
+
+/* Tablas adaptadas al tema oscuro */
+.page__content table {
+  width: 100%;
+  color: #c9d1d9;
+  border-color: #30363d;
+}
+
+.page__content table thead,
+.page__content table th {
+  background: #21262d !important;
+  color: #f0f6fc !important;
+  border-color: #30363d !important;
+}
+
+.page__content table td {
+  background: #0d1117 !important;
+  color: #c9d1d9 !important;
+  border-color: #30363d !important;
+}
+
+.page__content table tbody tr:nth-child(even) td {
+  background: #161b22 !important;
+}
