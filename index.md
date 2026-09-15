@@ -32,7 +32,6 @@ excerpt: "Electricidad, domótica y robótica llevadas del diseño a la práctic
   </div>
 
 </div>
-{% comment %}
 
 ## Proyectos destacados
 
