@@ -15,7 +15,7 @@ permalink: /projects/
     <h3>Instalación eléctrica y domótica del sótano</h3>
     <p>Diseño eléctrico completo, distribución de cargas y automatización con Shelly 1PM Gen 4.</p>
   </a>
-
+{% comment %}
   <a href="/bomba-achique/" class="project-card">
     <img src="/assets/images/sotano/achique.JPG" alt="Bomba de achique">
     <div class="project-card__tags">
@@ -65,5 +65,5 @@ permalink: /projects/
     <h3>Batería 5S8P LiFePo4 para robótica</h3>
     <p>Montaje y soldadura de celdas LiFePo4 18650 con BMS Daly para equipo de competición.</p>
   </a>
-
+{% endcomment %}
 </div>
