@@ -634,7 +634,8 @@ h1, h2, h3, h4 {
 
 /* Sección activa del índice */
 .toc__menu a.active,
-.toc__menu .active > a {
+.toc__menu .active > a,
+.toc__menu > li:has(ul li.active) > a {
   background: #21262d !important;
   color: #f0f6fc !important;
   border-left: 3px solid #58a6ff;
