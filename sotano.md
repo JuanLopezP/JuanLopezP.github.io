@@ -2,10 +2,10 @@
 title: "Sistema eléctrico y domótico del sótano"
 layout: single
 permalink: /sotano/
-author_profile: true
+author_profile: false
 toc: true
-toc_label: "Contenido"
-toc_icon: "bolt"
+toc_label: "En esta página"
+toc_sticky: true
 header:
   overlay_image: /assets/images/sotano/hero.jpg
   overlay_filter: 0.6

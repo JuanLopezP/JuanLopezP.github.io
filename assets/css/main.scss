@@ -592,3 +592,34 @@ h1, h2, h3, h4 {
     text-align: center;
   }
 }
+/* Índice de contenidos de los proyectos */
+.toc {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  box-shadow: none;
+  overflow: hidden;
+}
+
+.toc .nav__title {
+  background: #21262d;
+  color: #f0f6fc;
+  border: 0;
+  margin: 0;
+  padding: 0.8rem 1rem;
+}
+
+.toc__menu a {
+  color: #c9d1d9;
+  border-bottom: 1px solid #30363d;
+  padding: 0.55rem 1rem;
+}
+
+.toc__menu a:hover {
+  background: #21262d;
+  color: #58a6ff;
+}
+
+.toc__menu li ul > li a {
+  color: #8b949e;
+}
