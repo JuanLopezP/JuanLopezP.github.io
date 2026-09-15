@@ -6,3 +6,46 @@
   url: "/sotano/"
   published: true
   featured: true
+  ready: true
+
+- id: servidor-domestico
+  title: "Servidor doméstico y nube local"
+  excerpt: "Ubuntu Server con acceso remoto, Home Assistant, Immich y almacenamiento local."
+  published: true
+  featured: true
+  ready: false
+
+- id: bomba-achique
+  title: "Bomba de achique inteligente"
+  excerpt: "Energizado preventivo según la previsión de lluvia y control desde Home Assistant."
+  published: true
+  featured: true
+  ready: false
+
+- id: bateria-robot
+  title: "Batería 5S8P para robótica"
+  excerpt: "Batería construida para un robot de competición y documentada en la wiki del equipo."
+  published: true
+  featured: true
+  ready: false
+
+- id: inspeccion-riego
+  title: "Inspección aérea de sistemas de riego"
+  excerpt: "Uso de drones para localizar fugas y evaluar el estado del riego en parcelas agrícolas."
+  published: true
+  featured: true
+  ready: false
+
+- id: cartografia-riego
+  title: "Cartografía de sectores de riego"
+  excerpt: "Ubicación y representación de parcelas y sectores de riego mediante Google My Maps."
+  published: true
+  featured: true
+  ready: false
+
+- id: jardin-solar
+  title: "Jardín con riego solar automatizado"
+  excerpt: "Jardín completo con una futura instalación solar para automatizar el riego y la iluminación."
+  published: true
+  featured: true
+  ready: false
