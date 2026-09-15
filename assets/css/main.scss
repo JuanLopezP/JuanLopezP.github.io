@@ -670,6 +670,7 @@ h1, h2, h3, h4 {
     auto-fit,
     minmax(min(100%, 280px), 1fr)
   ) !important;
+  border-bottom: 0 !important;
 }
 
 /* Interacción discreta y consistente */
