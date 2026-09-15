@@ -736,3 +736,27 @@ h1, h2, h3, h4 {
     min-height: 0;
   }
 }
+/* Portada: composición más limpia y compacta */
+.layout--splash .page__hero--overlay {
+  min-height: clamp(360px, 42vh, 480px) !important;
+  padding: 3.5rem 0 !important;
+}
+
+/* GitHub como acción secundaria */
+.layout--splash .page__hero--overlay .btn:nth-of-type(2) {
+  background: transparent !important;
+  border: 1px solid rgba(255, 255, 255, 0.75) !important;
+  color: #fff !important;
+}
+
+.layout--splash .page__hero--overlay .btn:nth-of-type(2):hover {
+  background: rgba(255, 255, 255, 0.12) !important;
+  border-color: #fff !important;
+}
+
+/* Títulos de sección sin líneas decorativas */
+.layout--splash .page__content > h2 {
+  margin-bottom: 1.5rem;
+  padding-bottom: 0;
+  border-bottom: 0 !important;
+}
