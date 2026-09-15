@@ -15,8 +15,8 @@ excerpt: “Electricidad, domótica y robótica llevadas del diseño a la práct
 feature_row:
   - image_path: /assets/images/sotano/hero.jpg
     alt: "Proyecto garaje"
-title: "Instalación eléctrica y domótica de un garaje"
-excerpt: "Diseño eléctrico, distribución de cargas y automatización."
+    title: "Instalación eléctrica y domótica de un garaje"
+    excerpt: "Diseño eléctrico, distribución de cargas y automatización."
     url: /sotano/
     btn_label: "Ver proyecto"
     btn_class: "btn--primary"
