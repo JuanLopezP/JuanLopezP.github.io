@@ -1,6 +1,7 @@
 ---
 title: "Batería 5S8P LiFePo4 para equipo de robótica"
 layout: single
+published: false
 permalink: /bateria/
 author_profile: true
 toc: true

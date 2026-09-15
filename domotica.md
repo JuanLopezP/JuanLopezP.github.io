@@ -1,6 +1,7 @@
 ---
 title: "Domotización de vivienda unifamiliar"
 layout: single
+published: false
 permalink: /domotica/
 author_profile: true
 toc: true

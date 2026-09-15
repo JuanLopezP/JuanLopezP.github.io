@@ -1,6 +1,7 @@
 ---
 title: "Vigilancia aérea de regadíos"
 layout: single
+published: false
 permalink: /dron-riego/
 author_profile: true
 toc: true

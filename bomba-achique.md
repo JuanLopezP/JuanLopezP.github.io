@@ -1,6 +1,7 @@
 ---
 title: "Automatización de la bomba de achique"
 layout: single
+published: false
 permalink: /bomba-achique/
 author_profile: true
 toc: true

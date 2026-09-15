@@ -1,6 +1,7 @@
 ---
 title: "Instalación wifi mesh en vivienda"
 layout: single
+published: false
 permalink: /wifi-mesh/
 author_profile: true
 toc: true
