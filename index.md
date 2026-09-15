@@ -79,7 +79,7 @@ feature_row:
   </div>
 
 </div>
-
+{% comment %}
 ## Tecnologías y herramientas
 
 <div class="tech-chips">
@@ -93,7 +93,7 @@ feature_row:
   <span>Instalaciones eléctricas</span>
   <span>ROS</span>
 </div>
-
+{% endcomment %}
 ## Proyectos destacados
 
 {% include feature_row %}

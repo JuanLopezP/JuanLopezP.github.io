@@ -664,3 +664,74 @@ h1, h2, h3, h4 {
 .page__content table tbody tr:nth-child(even) td {
   background: #161b22 !important;
 }
+/* Proyectos destacados: cuadrícula automática */
+.feature__wrapper {
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(min(100%, 280px), 1fr)
+  ) !important;
+}
+
+/* Interacción discreta y consistente */
+.feature__item {
+  transition:
+    transform 0.18s ease,
+    border-color 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.feature__item:hover {
+  transform: translateY(-3px);
+  border-color: #58a6ff;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+}
+
+.feature__item .archive__item-body {
+  padding: 1rem 1.2rem 1.3rem;
+}
+
+/* Un único proyecto: tarjeta horizontal centrada */
+.feature__item:only-child {
+  max-width: 920px !important;
+  margin: 0 auto !important;
+}
+
+.feature__item:only-child .archive__item {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.95fr) minmax(0, 1.05fr);
+  height: 100%;
+}
+
+.feature__item:only-child .archive__item-teaser {
+  height: 100%;
+}
+
+.feature__item:only-child img {
+  height: 100%;
+  min-height: 280px;
+}
+
+/* Acción más ligera que un botón sólido */
+.feature__item .btn {
+  background: transparent !important;
+  border: 0 !important;
+  color: #58a6ff !important;
+  padding: 0 !important;
+  border-radius: 0;
+}
+
+.feature__item .btn::after {
+  content: " →";
+}
+
+/* En móvil, la tarjeta vuelve a formato vertical */
+@media (max-width: 768px) {
+  .feature__item:only-child .archive__item {
+    grid-template-columns: 1fr;
+  }
+
+  .feature__item:only-child img {
+    height: 220px;
+    min-height: 0;
+  }
+}
