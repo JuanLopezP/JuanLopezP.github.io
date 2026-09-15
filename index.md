@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Juan López"
+title: "Ingeniería aplicada a sistemas reales"
 header:
   overlay_color: "#000000"
   overlay_filter: 0.5
@@ -11,12 +11,12 @@ header:
     - label: "GitHub"
       url: "https://github.com/JuanLopezP"
 
-excerpt: "Construyo instalaciones eléctricas, sistemas domóticos y robots. Estudiante de Ingeniería en Málaga."
+excerpt: “Electricidad, domótica y robótica llevadas del diseño a la práctica.”
 feature_row:
   - image_path: /assets/images/sotano/hero.jpg
-    alt: "Proyecto sótano"
-    title: "Instalación eléctrica y domótica del sótano"
-    excerpt: "Diseño eléctrico, distribución de cargas y automatización con Shelly 1PM Gen 4."
+    alt: "Proyecto garaje"
+title: "Instalación eléctrica y domótica de un garaje"
+excerpt: "Diseño eléctrico, distribución de cargas y automatización."
     url: /sotano/
     btn_label: "Ver proyecto"
     btn_class: "btn--primary"
