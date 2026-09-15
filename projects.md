@@ -8,8 +8,8 @@ permalink: /projects/
 
   <a href="/sotano/" class="project-card">
     <img src="/assets/images/sotano/hero.jpg" alt="Instalación eléctrica sótano">
-    <h3>Instalación eléctrica y domótica del sótano</h3>
-    <p>Diseño eléctrico completo, distribución de cargas y automatización con Shelly 1PM Gen 4.</p>
+    <h3>Instalación eléctrica y domótica de un garaje</h3>
+    <p>Diseño eléctrico, distribución de cargas y automatización.</p>
   </a>
 {% comment %}
   <a href="/bomba-achique/" class="project-card">
