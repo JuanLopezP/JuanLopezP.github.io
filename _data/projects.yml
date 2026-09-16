@@ -26,8 +26,8 @@
 
 - id: bateria-robot
   icon: "fas fa-battery-three-quarters"
-  title: "Batería para el robot Donatello"
-  excerpt: "Construcción de una batería a medida de 26,6 V y 19 Ah para un robot de rescate."
+  title: "Batería 8S5P para el robot Donatello"
+  excerpt: "Construcción de una batería 8S5P de 26,6 V y 19 Ah para un robot de rescate."
   url: "/bateria-donatello/"
   published: true
   featured: true
