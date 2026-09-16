@@ -1,5 +1,5 @@
 ---
-title: "Batería para el robot Donatello"
+title: "Batería 8S5P para el robot Donatello"
 layout: single
 permalink: /bateria-donatello/
 author_profile: false
@@ -8,10 +8,10 @@ toc_label: "En esta página"
 toc_sticky: true
 ---
 
-Construcción de una batería a medida para **Donatello**, uno de los robots de rescate del equipo **STAR UMA**. El trabajo abarcó la preparación de las celdas, el aislamiento, la soldadura por puntos, la integración del BMS y las conexiones finales.
+Construcción de una batería **8S5P** a medida para **Donatello**, uno de los robots de rescate del equipo **STAR UMA**. El trabajo abarcó la preparación de las celdas, el aislamiento, la soldadura por puntos, la integración del BMS y las conexiones finales.
 
 <div class="notice--info">
-<strong>Datos principales:</strong> 26,6 V nominales, 19 Ah de capacidad, grupos de cinco celdas en paralelo, BMS con Bluetooth y pantalla, y conector XT90 para carga y descarga.
+<strong>Datos principales:</strong> configuración 8S5P, 26,6 V nominales, 19 Ah de capacidad, BMS con Bluetooth y pantalla, y conector XT90 para carga y descarga.
 </div>
 
 ## Problema
