@@ -1,6 +1,7 @@
 ---
 title: "Proyectos"
 layout: single
+classes: wide
 permalink: /projects/
 ---
 
