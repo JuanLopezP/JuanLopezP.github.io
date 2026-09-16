@@ -36,3 +36,29 @@ excerpt: "Electricidad, domótica y robótica llevadas del diseño a la práctic
 ## Proyectos destacados
 
 {% include featured-projects.html %}
+
+<section class="creative-showcase" aria-labelledby="creative-showcase-title">
+  <div class="creative-showcase__intro">
+    <p class="creative-showcase__eyebrow">Más allá de la ingeniería</p>
+    <h2 id="creative-showcase-title">Música electrónica desde otra perspectiva</h2>
+    <p>Como piloto de drones también colaboro en proyectos audiovisuales. En esta sesión de <strong>Santas Gachas</strong>, mis tomas aéreas acompañan la música y muestran desde el aire paisajes y entornos rurales de Castilla-La Mancha.</p>
+    <p>Una forma diferente de unir tecnología, música y territorio.</p>
+
+    <div class="creative-showcase__links">
+      <a href="https://www.youtube.com/watch?v=YUrh_4pFDiE" target="_blank" rel="noopener noreferrer">Ver en YouTube ↗</a>
+      <a href="https://www.youtube.com/@santasgachas" target="_blank" rel="noopener noreferrer">Canal de Santas Gachas ↗</a>
+    </div>
+  </div>
+
+  <div class="creative-showcase__video">
+    <iframe
+      src="https://www.youtube.com/embed/YUrh_4pFDiE?autoplay=1&mute=1&loop=1&playlist=YUrh_4pFDiE&playsinline=1&rel=0"
+      title="Tomas aéreas de Castilla-La Mancha para Santas Gachas"
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
