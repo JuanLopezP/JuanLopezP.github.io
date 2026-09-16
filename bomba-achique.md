@@ -8,7 +8,7 @@ toc_label: "En esta página"
 toc_sticky: true
 ---
 
-Automatización desarrollada en Home Assistant para preparar una bomba de achique antes de episodios de lluvia. El sistema consulta periódicamente la previsión meteorológica, energiza la bomba mediante un relé inteligente cuando se supera el umbral configurado y la desconecta automáticamente al finalizar un temporizador.
+Automatización desarrollada en Home Assistant para preparar una bomba de achique antes de episodios de lluvia. El sistema consulta periódicamente la previsión meteorológica, energiza la bomba mediante un relé inteligente Selly 1PM cuando se supera el umbral configurado y la desconecta automáticamente al finalizar un temporizador.
 
 <div class="notice--info">
 <strong>Idea principal:</strong> anticiparse a la lluvia y mantener disponible la bomba durante el periodo de riesgo, sin dejarla energizada permanentemente.
@@ -84,7 +84,7 @@ Esta supervisión facilita detectar activaciones inesperadas y confirmar que el 
 
 - Bomba de achique con boya de nivel.
 - Línea eléctrica dedicada.
-- Relé inteligente controlable desde Home Assistant.
+- Relé inteligente controlable Selly 1PM.
 - Home Assistant Container.
 - Integración meteorológica con pronóstico horario.
 - Temporizador y notificaciones de la aplicación móvil.
