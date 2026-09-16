@@ -10,12 +10,13 @@
 
 - id: servidor-domestico
   icon: "fas fa-server"
-  title: "Servidor doméstico y nube local"
-  excerpt: "Ubuntu Server con acceso remoto, Home Assistant, Immich y almacenamiento local."
+  title: "Servidor doméstico: domótica y nube local"
+  excerpt: "Servicios domésticos autogestionados con Ubuntu Server, Docker, Home Assistant e Immich."
+  url: "/servidor-domestico/"
   published: true
   featured: true
-  ready: false
-
+  ready: true
+  
 - id: bomba-achique
   icon: "fas fa-water"
   title: "Bomba de achique inteligente"
