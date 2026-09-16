@@ -45,7 +45,10 @@ Cuando el valor acumulado es igual o superior al umbral configurado, Home Assist
 
 Al finalizar el temporizador, una segunda automatización apaga el relé y corta la alimentación.
 
-<!-- IMAGEN 1: vista general de la automatización Bomba achique -->
+<figure class="project-figure">
+  <img src="/assets/images/bomba-achique/automatizacion-general.png" alt="Vista general de la automatización de la bomba de achique en Home Assistant">
+  <figcaption>Automatización principal: consulta del pronóstico, evaluación de la condición y activación del relé y del temporizador.</figcaption>
+</figure>
 
 ## Flujo de funcionamiento
 
@@ -66,7 +69,10 @@ La decisión no depende únicamente de si aparece lluvia en el pronóstico. La p
 
 El umbral puede ajustarse desde Home Assistant según el comportamiento real del sótano, la capacidad de drenaje y la precisión de la fuente meteorológica.
 
-<!-- IMAGEN 2: detalle de la plantilla que suma la precipitación prevista -->
+<figure class="project-figure">
+  <img src="/assets/images/bomba-achique/condicion-lluvia.png" alt="Plantilla de Home Assistant que suma la precipitación prevista durante seis horas">
+  <figcaption>Plantilla utilizada para sumar la precipitación prevista durante las siguientes seis horas y compararla con el umbral.</figcaption>
+</figure>
 
 ## Notificaciones
 
