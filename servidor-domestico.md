@@ -71,7 +71,10 @@ Entre las automatizaciones implementadas se encuentran:
 
 Al trasladar las automatizaciones al servidor, dejan de depender de atajos ejecutados desde los teléfonos. Esto evita procesos nocturnos que consumían batería y permite que las reglas funcionen incluso cuando el propietario no está en casa.
 
-<!-- IMAGEN 2: captura del panel principal de Home Assistant sin datos sensibles -->
+<figure class="project-figure">
+  <img src="/assets/images/servidor-domestico/home-assistant.png" alt="Panel principal de Home Assistant con iluminación, bomba de achique, climatización y producción solar">
+  <figcaption>Panel central de la vivienda: iluminación, bomba de achique, climatización, previsión meteorológica y seguimiento de la producción solar.</figcaption>
+</figure>
 
 ## Immich
 
@@ -79,7 +82,10 @@ Immich proporciona una nube local de fotografías para tres usuarios. El servici
 
 Actualmente se están sincronizando algunos álbumes y ya se utilizan funciones como el reconocimiento facial, los mapas y la búsqueda. Las fotografías cuentan con copias adicionales en discos duros, aunque el sistema de almacenamiento y respaldo todavía se encuentra en evolución.
 
-<!-- IMAGEN 3: captura de Immich con fotografías y ubicaciones privadas ocultas -->
+<figure class="project-figure">
+  <img src="/assets/images/servidor-domestico/immich.png" alt="Interfaz web de Immich ejecutándose en el servidor doméstico">
+  <figcaption>Interfaz web de Immich, utilizada como nube familiar de fotografías dentro de la infraestructura doméstica.</figcaption>
+</figure>
 
 ## Acceso remoto y seguridad
 
