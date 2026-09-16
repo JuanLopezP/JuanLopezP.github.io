@@ -1100,3 +1100,44 @@ h1, h2, h3, h4 {
     padding-top: 1.75rem;
   }
 }
+
+
+/* ==============================================
+   19. PORTADA — CARRUSEL DE PROYECTOS EN MÓVIL
+   En escritorio se conserva la cuadrícula. En pantallas
+   estrechas las tarjetas se descubren deslizando.
+   ============================================== */
+
+@media (max-width: 768px) {
+  .layout--splash .feature__wrapper {
+    display: flex !important;
+    width: 100%;
+    gap: 1rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    align-items: stretch;
+    padding: 0 12vw 0.9rem 0;
+    margin-right: 0;
+    scroll-padding-left: 0;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior-inline: contain;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .layout--splash .feature__wrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+  .layout--splash .feature__item {
+    flex: 0 0 min(82vw, 300px);
+    width: min(82vw, 300px) !important;
+    min-width: 0;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+
+  .layout--splash .feature__item .archive__item {
+    height: 100%;
+  }
+}
