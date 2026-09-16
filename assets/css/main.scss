@@ -1054,3 +1054,49 @@ h1, h2, h3, h4 {
     border-radius: 8px;
   }
 }
+
+/* ==============================================
+   18. PORTADA — JERARQUÍA COMÚN DE SECCIONES
+   Unifica el hero y los bloques principales con el
+   lenguaje visual azul y editorial de Santas Gachas.
+   ============================================== */
+
+/* Acción principal de la portada en azul */
+.layout--splash .page__hero--overlay .btn:first-of-type {
+  background: #1f6feb !important;
+  border-color: #388bfd !important;
+  color: #fff !important;
+}
+
+.layout--splash .page__hero--overlay .btn:first-of-type:hover {
+  background: #388bfd !important;
+  border-color: #58a6ff !important;
+}
+
+/* Encabezados principales de la portada */
+.layout--splash .page__content > h2 {
+  margin-top: 0;
+  margin-bottom: 1.75rem;
+  color: #f0f6fc;
+  font-size: clamp(1.45rem, 2.5vw, 1.9rem);
+  line-height: 1.15;
+}
+
+/* Separación entre la biografía y los proyectos */
+.layout--splash .about-section + h2 {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid #30363d !important;
+}
+
+/* La biografía respira como una sección editorial */
+.layout--splash .about-section {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .layout--splash .about-section + h2 {
+    margin-top: 3.5rem;
+    padding-top: 1.75rem;
+  }
+}
