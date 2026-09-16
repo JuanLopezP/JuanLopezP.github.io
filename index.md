@@ -62,9 +62,9 @@ excerpt: "Electricidad, domótica y robótica llevadas del diseño a la práctic
   </div>
 
   <nav class="creative-showcase__links" aria-label="Enlaces de Santas Gachas">
-    <a href="https://www.youtube.com/watch?v=YUrh_4pFDiE" target="_blank" rel="noopener noreferrer">Ver sesión <span aria-hidden="true">↗</span></a>
-    <a href="https://www.youtube.com/@santasgachas" target="_blank" rel="noopener noreferrer">YouTube <span aria-hidden="true">↗</span></a>
-    <a href="https://www.instagram.com/santasgachas/" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a>
+    <a class="creative-btn creative-btn--primary" href="https://www.youtube.com/watch?v=YUrh_4pFDiE" target="_blank" rel="noopener noreferrer">Ver sesión <span aria-hidden="true">↗</span></a>
+    <a class="creative-btn" href="https://www.youtube.com/@santasgachas" target="_blank" rel="noopener noreferrer">YouTube <span aria-hidden="true">↗</span></a>
+    <a class="creative-btn" href="https://www.instagram.com/santasgachas/" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a>
   </nav>
 </section>
 
