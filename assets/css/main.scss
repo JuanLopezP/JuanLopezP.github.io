@@ -779,7 +779,9 @@ h1, h2, h3, h4 {
 
 /* Título de las páginas sin imagen de cabecera */
 #page-title,
-.page__title {
+#page-title a,
+.page__title,
+.page__title a {
   color: #f0f6fc !important;
 }
 
