@@ -26,11 +26,12 @@
 
 - id: bateria-robot
   icon: "fas fa-battery-three-quarters"
-  title: "Batería 5S8P para robótica"
-  excerpt: "Batería construida para un robot de competición y documentada en la wiki del equipo."
+  title: "Batería para el robot Donatello"
+  excerpt: "Construcción de una batería a medida de 26,6 V y 19 Ah para un robot de rescate."
+  url: "/bateria-donatello/"
   published: true
   featured: true
-  ready: false
+  ready: true
 
 - id: inspeccion-riego
   icon: "fas fa-binoculars"
