@@ -1,7 +1,11 @@
 <div class="feature__wrapper">
   {% for project in site.data.projects %}
     {% if project.published and project.featured %}
-      <div class="feature__item">
+      <div class="feature__item{% unless project.ready %} feature__item--draft{% endunless %}">
+        {% unless project.ready %}
+          <span class="project-status">En preparación</span>
+        {% endunless %}
+
         <div class="archive__item">
           <div class="archive__item-teaser">
             {% if project.image_path %}
@@ -12,7 +16,7 @@
               >
             {% else %}
               <div class="project-image-placeholder" aria-hidden="true">
-                <span>{{ project.title | slice: 0 }}</span>
+                <i class="{{ project.icon | default: 'fas fa-tools' }}"></i>
               </div>
             {% endif %}
           </div>
@@ -26,8 +30,8 @@
               <p>{{ project.excerpt }}</p>
             </div>
 
-            <p>
-              {% if project.ready %}
+            {% if project.ready %}
+              <p>
                 <a
                   href="{% if project.external %}{{ project.url }}{% else %}{{ project.url | relative_url }}{% endif %}"
                   class="btn btn--primary"
@@ -35,10 +39,8 @@
                 >
                   {{ project.link_label | default: "Ver proyecto" }}
                 </a>
-              {% else %}
-                <span class="project-status">En preparación</span>
-              {% endif %}
-            </p>
+              </p>
+            {% endif %}
           </div>
         </div>
       </div>
