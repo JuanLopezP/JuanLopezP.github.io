@@ -16,14 +16,15 @@
   published: true
   featured: true
   ready: true
-  
+
 - id: bomba-achique
   icon: "fas fa-water"
   title: "Bomba de achique inteligente"
   excerpt: "Energizado preventivo según la previsión de lluvia y control desde Home Assistant."
   published: true
   featured: true
-  ready: false
+  url: "/bomba-achique/"
+  ready: true
 
 - id: bateria-robot
   icon: "fas fa-battery-three-quarters"
