@@ -16,13 +16,13 @@ Servidor doméstico construido a partir de un portátil reutilizado para central
 
 ## Problema
 
-La vivienda acumulaba aplicaciones independientes para controlar dispositivos de distintos fabricantes. Esto obligaba a mantener varias cuentas y hacía que algunas automatizaciones dependieran de los atajos de un teléfono concreto.
+Me encontraba cansado de acumular aplicaciones independientes para controlar dispositivos de distintos fabricantes. Esto obligaba a mantener varias cuentas y hacía que algunas automatizaciones dependieran de los atajos de un teléfono concreto.
 
-El objetivo era trasladar esas tareas a un sistema local y permanente que pudiera utilizar toda la familia. Además de simplificar el control diario, la plataforma debía permitir combinar datos de consumo energético, producción solar y condiciones ambientales para tomar decisiones más eficientes.
+Por esta razón el objetivo era trasladar esas tareas a un sistema local y permanente que pudiera utilizar toda la familia. Además de simplificar el control diario, la plataforma debía permitir combinar datos de consumo energético, producción solar y condiciones ambientales para tomar decisiones más eficientes.
 
 ## Solución
 
-Se reutilizó un portátil Lenovo IdeaPad que llevaba varios años sin uso. Sobre él se instaló Ubuntu Server directamente, sin una capa adicional de virtualización. El equipo funciona sin pantalla ni periféricos y se administra mediante SSH.
+Se reutilizó un portátil Lenovo IdeaPad que llevaba varios años sin uso. Sobre él se instaló Ubuntu Server directamente. El equipo funciona sin pantalla ni periféricos y se administra mediante SSH.
 
 Los servicios se ejecutan en contenedores independientes. Cada uno mantiene su propio archivo Docker Compose, configuración y volúmenes, lo que permite actualizarlo o reiniciarlo sin afectar al resto del sistema.
 
@@ -41,7 +41,7 @@ Los servicios se ejecutan en contenedores independientes. Cada uno mantiene su p
 | Red actual | Wi-Fi con dirección IP fija |
 | Sistema operativo | Ubuntu Server 24.04.5 LTS |
 
-La carga de trabajo actual es moderada, por lo que el portátil trabaja con poco ruido y sin problemas apreciables de temperatura. Su batería interna añade un pequeño margen ante cortes, mientras que el SAI proporciona una protección adicional.
+La carga de trabajo actual es baja, por lo que el portátil trabaja con poco ruido y sin problemas apreciables de temperatura. Su batería interna añade un pequeño margen ante cortes, mientras que el SAI proporciona una protección adicional.
 
 La conexión se realiza actualmente por Wi-Fi sobre una red mesh propia. Como mejora futura se contempla añadir Ethernet mediante un adaptador para obtener una conexión cableada más estable.
 
@@ -63,11 +63,11 @@ Home Assistant se ejecuta como contenedor y actúa como punto común para los di
 
 Entre las automatizaciones implementadas se encuentran:
 
-- Encendido automático de luces.
+- Encendido automático por horario y presencia de luces.
 - Gestión de la bomba de achique.
 - Control de calefacción y termo según la producción solar.
-- Control del aire acondicionado en verano según el consumo energético.
-- Integración con Alexa para facilitar el uso cotidiano.
+- Control del aire acondicionado en verano según el consumo energético y la producción solar.
+- Integración con Alexa para facilitar el uso cotidiano (Pendiente).
 
 Al trasladar las automatizaciones al servidor, dejan de depender de atajos ejecutados desde los teléfonos. Esto evita procesos nocturnos que consumían batería y permite que las reglas funcionen incluso cuando el propietario no está en casa.
 
@@ -80,7 +80,7 @@ Al trasladar las automatizaciones al servidor, dejan de depender de atajos ejecu
 
 Immich proporciona una nube local de fotografías para tres usuarios. El servicio se ejecuta en Docker y mantiene las imágenes dentro de la infraestructura doméstica, sin depender de Google Photos, iCloud u otra nube comercial.
 
-Actualmente se están sincronizando algunos álbumes y ya se utilizan funciones como el reconocimiento facial, los mapas y la búsqueda. Las fotografías cuentan con copias adicionales en discos duros, aunque el sistema de almacenamiento y respaldo todavía se encuentra en evolución.
+Actualmente se están sincronizando algunos álbumes y ya se utilizan funciones como el reconocimiento facial, los mapas y la búsqueda. Las fotografías cuentan con copias adicionales en discos duros, aunque el sistema de almacenamiento y respaldo todavía se encuentra en una fase bastante prematura.
 
 <figure class="project-figure">
   <img src="/assets/images/servidor-domestico/immich.png" alt="Interfaz web de Immich ejecutándose en el servidor doméstico">
@@ -89,7 +89,7 @@ Actualmente se están sincronizando algunos álbumes y ya se utilizan funciones 
 
 ## Acceso remoto y seguridad
 
-El servidor puede administrarse de forma remota mediante Tailscale, sin publicar aquí detalles de su configuración. El acceso administrativo está limitado al propietario y se realizó una revisión de seguridad antes de poner el sistema en funcionamiento.
+El servidor puede administrarse de forma remota mediante Tailscale. El acceso administrativo está limitado para una mayor seguridad en las conexiones y tratar de mantener el server alejado de posibles ataques.
 
 La combinación de acceso privado, servicios locales y administración mediante SSH permite trabajar con el servidor sin exponer directamente sus aplicaciones a Internet.
 
