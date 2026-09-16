@@ -923,62 +923,54 @@ h1, h2, h3, h4 {
 
 
 /* ==============================================
-   17. PORTADA — PROYECTO AUDIOVISUAL
-   Bloque independiente tras los proyectos destacados.
-   Presenta una colaboración con vídeo en gran formato.
+   17. PORTADA — COLABORACIÓN AUDIOVISUAL
+   Bloque editorial minimalista tras los proyectos.
    ============================================== */
 
 .creative-showcase {
+  margin: 4.5rem 0 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #30363d;
+}
+
+.creative-showcase__header {
   display: grid;
-  grid-template-columns: minmax(240px, 0.75fr) minmax(0, 1.45fr);
-  gap: 2rem;
-  align-items: center;
-  margin: 4rem 0 3rem;
-  padding: 2rem;
-  background:
-    radial-gradient(circle at 100% 0, rgba(88, 166, 255, 0.1), transparent 35%),
-    #161b22;
-  border: 1px solid #30363d;
-  border-radius: 18px;
+  grid-template-columns: minmax(190px, 0.6fr) minmax(0, 1.4fr);
+  gap: clamp(1.5rem, 5vw, 4rem);
+  align-items: start;
+  margin-bottom: 1.75rem;
 }
 
 .creative-showcase__eyebrow {
-  margin: 0 0 0.55rem;
-  color: #58a6ff;
-  font-size: 0.78rem;
+  margin: 0 0 0.4rem;
+  color: #8b949e;
+  font-size: 0.72rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
-.creative-showcase__intro h2 {
-  margin: 0 0 1rem;
+.creative-showcase__header h2 {
+  margin: 0;
+  padding: 0;
+  border: 0 !important;
   color: #f0f6fc;
-  font-size: clamp(1.45rem, 2.5vw, 2rem);
-  line-height: 1.2;
+  font-size: clamp(1.65rem, 3vw, 2.25rem);
+  line-height: 1.1;
 }
 
-.creative-showcase__intro p {
+.creative-showcase__copy {
+  max-width: 760px;
+}
+
+.creative-showcase__copy p {
+  margin: 0 0 0.8rem;
+  color: #c9d1d9;
   line-height: 1.65;
 }
 
-.creative-showcase__links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.65rem 1rem;
-  margin-top: 1.4rem;
-}
-
-.creative-showcase__links a {
-  color: #58a6ff;
-  font-size: 0.88rem;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.creative-showcase__links a:hover {
-  color: #79c0ff;
-  text-decoration: underline;
+.creative-showcase__copy p:last-child {
+  margin-bottom: 0;
 }
 
 .creative-showcase__video {
@@ -987,9 +979,7 @@ h1, h2, h3, h4 {
   aspect-ratio: 16 / 9;
   overflow: hidden;
   background: #000;
-  border: 1px solid #30363d;
-  border-radius: 14px;
-  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.28);
+  border-radius: 12px;
 }
 
 .creative-showcase__video iframe {
@@ -1000,20 +990,36 @@ h1, h2, h3, h4 {
   border: 0;
 }
 
-@media (max-width: 850px) {
+.creative-showcase__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.4rem;
+  margin-top: 1rem;
+}
+
+.creative-showcase__links a {
+  color: #8b949e;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.18s ease;
+}
+
+.creative-showcase__links a:hover {
+  color: #58a6ff;
+}
+
+@media (max-width: 768px) {
   .creative-showcase {
+    margin-top: 3.5rem;
+  }
+
+  .creative-showcase__header {
     grid-template-columns: 1fr;
+    gap: 1rem;
   }
 
   .creative-showcase__video {
-    grid-row: 1;
-  }
-}
-
-@media (max-width: 480px) {
-  .creative-showcase {
-    margin-top: 3rem;
-    padding: 1.1rem;
-    border-radius: 14px;
+    border-radius: 8px;
   }
 }
