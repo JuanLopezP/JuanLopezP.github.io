@@ -256,10 +256,7 @@ h1, h2, h3, h4 {
 /* Cuadrícula adaptable de proyectos */
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(min(100%, 280px), 340px)
-  );
+  grid-template-columns: repeat(auto-fill, minmax(260px, 300px));
   justify-content: start;
   align-items: stretch;
   gap: 1.5rem;
@@ -781,8 +778,8 @@ h1, h2, h3, h4 {
 }
 
 /* Título de las páginas sin imagen de cabecera */
-.layout--single .page__title,
-.layout--single #page-title {
+#page-title,
+.page__title {
   color: #f0f6fc !important;
 }
 
@@ -827,4 +824,16 @@ h1, h2, h3, h4 {
 
 .feature__item .project-status {
   margin-top: 0.25rem;
+}
+
+
+/* Ajuste de la cuadrícula al reducir la ventana */
+@media (max-width: 700px) {
+  .project-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .project-card {
+    max-width: 420px;
+  }
 }
