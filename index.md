@@ -38,17 +38,17 @@ excerpt: "Electricidad, domótica y robótica llevadas del diseño a la práctic
 {% include featured-projects.html %}
 
 <section class="creative-showcase" aria-labelledby="creative-showcase-title">
-  <div class="creative-showcase__intro">
-    <p class="creative-showcase__eyebrow">Más allá de la ingeniería</p>
-    <h2 id="creative-showcase-title">Música electrónica desde otra perspectiva</h2>
-    <p>Como piloto de drones también colaboro en proyectos audiovisuales. En esta sesión de <strong>Santas Gachas</strong>, mis tomas aéreas acompañan la música y muestran desde el aire paisajes y entornos rurales de Castilla-La Mancha.</p>
-    <p>Una forma diferente de unir tecnología, música y territorio.</p>
-
-    <div class="creative-showcase__links">
-      <a href="https://www.youtube.com/watch?v=YUrh_4pFDiE" target="_blank" rel="noopener noreferrer">Ver en YouTube ↗</a>
-      <a href="https://www.youtube.com/@santasgachas" target="_blank" rel="noopener noreferrer">Canal de Santas Gachas ↗</a>
+  <header class="creative-showcase__header">
+    <div>
+      <p class="creative-showcase__eyebrow">También desde el aire</p>
+      <h2 id="creative-showcase-title">Santas Gachas</h2>
     </div>
-  </div>
+
+    <div class="creative-showcase__copy">
+      <p><strong>Santas Gachas</strong> nace para fomentar la vida y el entorno rural a través de la música electrónica. Sus sesiones llevan la música y la creación audiovisual a distintos espacios de Castilla-La Mancha para mostrar el territorio desde una perspectiva contemporánea.</p>
+      <p>Como piloto de drones, colaboro en algunas de estas sesiones aportando las tomas aéreas que conectan la música con el paisaje.</p>
+    </div>
+  </header>
 
   <div class="creative-showcase__video">
     <iframe
@@ -60,5 +60,11 @@ excerpt: "Electricidad, domótica y robótica llevadas del diseño a la práctic
       allowfullscreen>
     </iframe>
   </div>
+
+  <nav class="creative-showcase__links" aria-label="Enlaces de Santas Gachas">
+    <a href="https://www.youtube.com/watch?v=YUrh_4pFDiE" target="_blank" rel="noopener noreferrer">Ver sesión <span aria-hidden="true">↗</span></a>
+    <a href="https://www.youtube.com/@santasgachas" target="_blank" rel="noopener noreferrer">YouTube <span aria-hidden="true">↗</span></a>
+    <a href="https://www.instagram.com/santasgachas/" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a>
+  </nav>
 </section>
 
