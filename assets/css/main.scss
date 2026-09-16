@@ -781,8 +781,15 @@ h1, h2, h3, h4 {
 }
 
 /* Título de las páginas sin imagen de cabecera */
-#page-title.page__title {
+.layout--single .page__title,
+.layout--single #page-title {
   color: #f0f6fc !important;
+}
+
+/* La página de proyectos usa el ancho disponible para formar la cuadrícula */
+.layout--single.wide .page,
+.layout--single .wide .page {
+  width: 100%;
 }
 
 /* Marcadores para proyectos que aún no tienen imagen */
